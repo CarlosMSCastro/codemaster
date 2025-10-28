@@ -1,0 +1,43 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#em{
+  font-size: 2em;
+}
+
+#ex{
+  font-size: 5ex;
+  color: blue;
+}
+
+#ch{
+  font-size: 5ch;
+  color: red;
+}
+
+#rem{
+  font-size: 1rem;
+  color: green;
+}
+
+#vw{
+  font-size: 2.5vw;
+  color: gray;
+}
+
+#vh{
+  font-size: 2.5vh;
+  color: red;
+  opacity: 30%;
+}
+
+#vmin{
+  font-size: 3vmin;
+  color: orange;
+}
+
+#vmax{
+  font-size: 3vmax;
+  color: purple;
+}

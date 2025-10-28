@@ -1,0 +1,59 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 17px;
+}
+
+div{
+  text-align: justify;
+  border: 1px solid black;
+  padding: 15px;
+  background-color: lightgreen;
+}
+
+#link1{
+  text-decoration: none;
+}
+
+#link2{
+  text-decoration: underline solid red 3px;
+}
+
+#link3{
+  text-decoration: underline dotted red 3px;
+}
+
+#link4{
+  text-decoration: underline wavy red 3px;
+}
+
+#link5{
+  text-decoration: underline double red 3px;
+}
+
+#link6{
+  text-decoration: underline dashed red 3px;
+}
+
+#link7{
+  text-decoration: overline solid red 3px;
+}
+
+#link8{
+  text-decoration: line-through solid red 3px;
+}
+
+#link9{
+  text-decoration: underline overline line-through solid red 3px;
+}
+
+#link10{
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+}
+
+#yellow{
+  background-color: yellow;
+}

@@ -1,0 +1,15 @@
+h1{
+  text-align: center;
+}
+h3{
+  background-color: rgb(255, 0, 0);
+  color: white;
+  text-align: center;
+}
+body{
+  background-image: url("../img/porto.jpg");
+}
+p{
+  border: 6px groove yellow;
+  background-color: red;
+}

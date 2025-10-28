@@ -1,0 +1,20 @@
+body{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div{
+  border:3px solid black;
+  width:150px;
+  height:150px;
+  margin:60px auto;
+  padding:10px;
+  text-align: justify;
+  background-color: lightgreen;
+}
+#d1{transform: rotate(45deg);}
+#d2{transform: rotate(0.1225turn);}
+#d3{transform: translate(320px,-100px);}
+#d4{transform: scale(50%);}
+#d5{transform: scale(200%);margin-top: 100px;}
+#d6{transform: skew(45deg, 0deg);}

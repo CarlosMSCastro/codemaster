@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+  <html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 1 - Carlos Castro</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>HTML</h1>
+    <h3>Carlos Castro</h3>
+    <h4>Data do exercício: (14/05/2025)</h4>
+    <hr>
+    <h3>1 - O que é HTML?</h3>
+    <p>
+      O html significa HyperText Markup Language e como o  nome indica é uma linguagem de marcação. É usada para estruturar o conteúdo de páginas web. É só o "esqueleto" uma vez que para efeitos visuais usamos CSS.
+    </p>
+    <hr>
+    <h3>2 - O que é um elemento HTML? Dê exemplos.</h3>
+    <p>
+      Um elemento é uma maneira de dizer conteúdo numa página. Por exemplo um <span class="codigo"><span class="tag">&lt;p&gt;</span> Lorem <span class="tag">&lt;/p&gt;</span></span>é um elemento que possui tag de abertura, tag de fechamento e conteúdo. Existem tags que nao requerem fecho como <span class="codigo"><span class="tag">&lt;hr&gt;</span></span> e <span class="codigo"><span class="tag">&lt;br&gt;</span></span>, que também são elementos. Outros exemplos : <span class="codigo"><span class="tag">&lt;img</span> <span class="atribute">src=</span><span class="aspas">"#"</span> <span class="atribute">alt=</span> <span class="aspas">"#"</span><span class="tag">&gt;</span></span>; <span class="codigo"><span class="tag">&lt;span&gt;</span> Lorem <span class="tag">&lt;/span&gt;</span></span> e <span class="codigo"><span class="tag">&lt;div&gt;</span> Lorem <span class="tag">&lt;/div&gt;</span>.
+    </p>
+    <hr>
+    <h3>3 - Que ferramentas são necessárias para desenvolver um site HTML?</h3>
+    <p>
+     Um editor de texto (o próprio notepad do windows lê ficheiros .html .css e até .js) e um browser web para visualização dos resultados. Recomendo no entanto o uso de um editor de código como o <a href="https://code.visualstudio.com/">VS code</a>, mas o notepad faz a função.
+    </p>
+    <hr>
+    <h3>
+      4 - Quais são os elementos que compõem a estrutura base do HMTL?<br>
+      Além da estrutura base, o que mais devemos acrescentar para seguirmos as boas práticas de programação?
+    </h3>
+    <p>
+     A estrutura base do HTML inclui o <span class="codigo"><span class="tag">&lt;!DOCTYPE html&gt;</span></span>, as tags <span class="codigo"><span class="tag">&lt;html&gt;</span></span>, <span class="codigo"><span class="tag">&lt;head&gt;</span></span> <span class="codigo"><span class="tag">&lt;title&gt;</span></span> <span class="codigo"><span class="tag">&lt;/title&gt;</span></span> <span class="codigo"><span class="tag">&lt;/head&gt;</span></span>, <span class="codigo"><span class="tag">&lt;body&gt;</span></span> <span class="codigo"><span class="tag">&lt;/body&gt;</span></span> e o fechamento da tag no final <span class="codigo"><span class="tag">&lt;/html&gt;</span></span>. Além desta estrutra, devemos aplicar o atributo lang na tag html <span class="codigo"><span class="tag">&lt;html</span> <span class="atribute">lang=</span><span class="aspas">"pt"</span><span class="tag">&gt;</span></span> para definir corretamente a linguagem do site, o <span class="codigo"><span class="tag">&lt;meta</span> <span class="atribute">charset=</span><span class="aspas">"UTF-8"</span></span> relativamente aos caractéres usados, e para responsividade em dispositivos móveis, devemos usar o <span class="codigo"><span class="tag">&lt;meta</span> <span class="atribute">name=</span><span class="aspas">"Viewport"</span> <span class="atribute">content=</span> <span class="aspas">"width=device-width, initial-scale=1.0"</span><span class="tag">&gt;</span></span>. Podemos e devemos ainda usar tags de acessibilidade como o <span class="codigo"><span class="tag">&lt;alt&gt;</span></span>. Como boas práticas deve ser levada a identação de todo o projeto com cuidado  e rigor.
+    </p>
+    <hr>
+    <h3>5 - O elemento &lt;br&gt; necessita de ser fechado?</h3>
+    <p>
+     Uma vez que se trata de uma tag sem fechamento, o elemento <span class="codigo"><span class="tag">&lt;br&gt;</span></span>,  não precisam de ser fechadas porque não possuem conteúdo e interno e executam o seu proposito só com a sua presença sem fechamento. A mesma se coisa se aplica a tags como <span class="codigo"><span class="tag">&lt;hr&gt;</span></span> ou <span class="codigo"><span class="tag">&lt;img&gt;</span></span>.
+    </p>
+    <hr>
+    <h3>6 - Para que servem os atributos? Dê um exemplo.</h3>
+    <p>
+      Os Atributos servem para adicionar informações ou por outras palavras, dar propriedades ás tags ou elementos. Por exemplo, a tag <span class="codigo"><span class="tag">&lt;img&gt;</span></span> precisa dos atributos <span class="codigo"><span class="atribute">src=</span></span> e <span class="codigo"><span class="atribute">alt=</span></span> para estar devida e corretamente preenchida. 
+    </p>
+    <hr>
+    <h3>
+      7 - O que é a indentação e para quê ela serve?<br>
+      Do ponto de vista do código HTML, a indentação é obrigatória para o seu funcionamento?
+    </h3>
+    <p>
+      A indentação é o espaço horizontal usado no inicio das linhas de código, para mostrar a hierarquia entre os elementos. Ajuda a organizar visualmente o código, o que facilita a escalação do código para outros programadores, porque ajuda a entender a estrutura do código.
+    </p>
+    <p>
+      Relativamente ao HTML, os navegadores não têm em consideração o espaçamento ou quebras de linha, por isso o código iria correr sem erros de maior. No entanto, pelas razões acima mencionadas, torna-se essencial ter o código bem indentado.
+    </p>
+    <hr>
+    <h3>8 - Faça o seguinte exemplo abaixo:</h3>
+    <table>
+      <caption>Tabela de Exemplo</caption>
+      <tr class="tabela">
+        <th class="titulo1">Título 1</th>
+        <th>Título 2</th>
+        <th>Título 3</th>
+      </tr>
+      <tr>
+        <td>Exemplo 1.1</td>
+        <td>Exemplo 1.2</td>
+        <td><marquee direction="down" scrollamount="2" >Exemplo 1.3</marquee></td>
+      </tr>
+       <tr>
+        <td>Exemplo 2.1</td>
+        <td><marquee direction="left" scrollamount="5" >Exemplo 2.2</marquee></td>
+        <td>Exemplo 2.3</td>
+      </tr>
+       <tr>
+        <td><marquee direction="up" scrollamount="2" >Exemplo 3.1</marquee></td>
+        <td>Exemplo 3.2</td>
+        <td class="exemplo3_3">Exemplo 3.3</td>
+      </tr>
+    </table>
+    </body>
+</html>

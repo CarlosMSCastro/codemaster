@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+  <html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 29 - Exercicio 1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>CSS [Pseudo-classes]</h1>
+    <br><hr>
+    <h3>---Exemplo da pseudo-classe (:hover)"instantaneo"---</h3>
+    <div id="d1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quos iure quae consequuntur explicabo praesentium omnis rerum, soluta cupiditate cumque qui animi repellat porro minima impedit, suscipit voluptate asperiores architecto!</div>
+    <h3>---Exemplo da pseudo-classe (:hover)"suave"---</h3>
+    <div id="d2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quos iure quae consequuntur explicabo praesentium omnis rerum, soluta cupiditate cumque qui animi repellat porro minima impedit, suscipit voluptate asperiores architecto!</div>
+    <br><hr>
+    <h3>---Exemplo da pseudo-classe (:active)"instantaneo"---</h3>
+    <div id="d3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quos iure quae consequuntur explicabo praesentium omnis rerum, soluta cupiditate cumque qui animi repellat porro minima impedit, suscipit voluptate asperiores architecto!</div>
+    <h3>---Exemplo da pseudo-classe (:active)"suave"---</h3>
+    <div id="d4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quos iure quae consequuntur explicabo praesentium omnis rerum, soluta cupiditate cumque qui animi repellat porro minima impedit, suscipit voluptate asperiores architecto!</div>
+    <br><hr>
+    <h3>---Exemplo da pseudo-classe (:focus)"instantaneo"---</h3>
+    <div id="d5">
+      <form>
+        <input type="text" placeholder="Texto">
+      </form>
+    </div>
+    <h3>---Exemplo da pseudo-classe (:focus)"suave"---</h3>
+    <div id="d6">
+      <form>
+        <input type="text" placeholder="Texto">
+      </form>
+    </div>
+    <br><hr>
+    <h3>---Exemplo da pseudo-classe (:visited)+(:link)---</h3>
+    <div id="d7">
+      <a href="http://google.com">Visitado</a>
+      <a href="#">Não visitado</a>
+    </div>
+    <br><hr>
+    <h3>---Exemplo da pseudo-classe (:first-of-type)---</h3>
+    <div id="d8">
+      <button>Botão 1</button>
+      <button>Botão 2</button>
+      <button>Botão 3</button>
+      <button>Botão 4</button>
+      <button>Botão 5</button>
+    </div>
+    <br>
+    <h3>---Exemplo da pseudo-classe (:last-of-type)---</h3>
+    <div id="d9">
+      <button>Botão 1</button>
+      <button>Botão 2</button>
+      <button>Botão 3</button>
+      <button>Botão 4</button>
+      <button>Botão 5</button>
+    </div>
+    <br>
+    <h3>---Exemplo da pseudo-classe (:nth-of-type(3))---</h3>
+    <div id="d10">
+      <button>Botão 1</button>
+      <button>Botão 2</button>
+      <button>Botão 3</button>
+      <button>Botão 4</button>
+      <button>Botão 5</button>
+    </div>
+    <br>
+    <h3>---Exemplo da pseudo-classe (:nth-of-type)(odd)---</h3>
+    <div id="d11">
+      <button>Botão 1</button>
+      <button>Botão 2</button>
+      <button>Botão 3</button>
+      <button>Botão 4</button>
+      <button>Botão 5</button>
+      <button>Botão 6</button>
+      <button>Botão 7</button>
+      <button>Botão 8</button>
+      <button>Botão 9</button>
+      <button>Botão 10</button>
+      <button>Botão 11</button>
+      <button>Botão 12</button>
+    </div>
+    <br>
+    <h3>---Exemplo da pseudo-classe (:nth-of-type)(even)---</h3>
+    <div id="d12">
+      <button>Botão 1</button>
+      <button>Botão 2</button>
+      <button>Botão 3</button>
+      <button>Botão 4</button>
+      <button>Botão 5</button>
+      <button>Botão 6</button>
+      <button>Botão 7</button>
+      <button>Botão 8</button>
+      <button>Botão 9</button>
+      <button>Botão 10</button>
+      <button>Botão 11</button>
+      <button>Botão 12</button>
+    </div>
+    <br>
+    <h3>---Exemplo da pseudo-classe (:nth-of-type)(3n)---</h3>
+    <div id="d13">
+      <button>Botão 1</button>
+      <button>Botão 2</button>
+      <button>Botão 3</button>
+      <button>Botão 4</button>
+      <button>Botão 5</button>
+      <button>Botão 6</button>
+      <button>Botão 7</button>
+      <button>Botão 8</button>
+      <button>Botão 9</button>
+      <button>Botão 10</button>
+      <button>Botão 11</button>
+      <button>Botão 12</button>
+    </div>
+    <br><hr>
+    <h3>---Exemplo da pseudo-classe (:lang)(pt))---</h3>
+    <div id="d14">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam possimus rem ad laudantium quo! Voluptatem inventore, placeat dolorum iure sint ab itaque? Maxime numquam nobis id earum nihil non dolore?</div>
+    <h3>---Exemplo da pseudo-classe (:lang)(en))---</h3>
+    <div id="d15">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam possimus rem ad laudantium quo! Voluptatem inventore, placeat dolorum iure sint ab itaque? Maxime numquam nobis id earum nihil non dolore?</div>
+    <br><hr>
+    <h3>---Exemplo da pseudo-classe (:autofill)---</h3>
+    <div id="d16">
+      <input type="text" name="nome" placeholder="Autofill">
+    </div>
+    <h3>---Exemplo da pseudo-classe (:disabled)---</h3>
+    <div id="d17">
+      <input type="text" name="nome" placeholder="disabled" disabled>
+    </div>
+    <h3>---Exemplo da pseudo-classe (:enabled)---</h3>
+    <div id="d18">
+      <input type="text" name="nome" placeholder="disabled" enable>
+    </div>
+    <h3>---Exemplo da pseudo-classe (:readonly)---</h3>
+    <div id="d19">
+      <input type="text" name="nome" placeholder="disabled" readonly>
+    </div>
+    <h3>---Exemplo da pseudo-classe (:placeholder-shown)---</h3>
+    <div id="d20">
+      <input type="text" name="nome" placeholder="disabled" readonly>
+    </div>
+    <h3>---Exemplo da pseudo-classe (:placeholder-shown)---</h3>
+    <div id="d21">
+    <form>
+        <label>(A)</label>
+        <input type="checkbox">
+        <br>
+        <label>(B)</label>
+        <input type="checkbox">
+        <br>
+        <label>(C)</label>
+        <input type="checkbox">
+        <br>
+      </form>
+    </div>
+  </body>
+</html>

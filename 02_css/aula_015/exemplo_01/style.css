@@ -1,0 +1,11 @@
+h1{
+  text-align: center;
+  background-color: red;
+}
+h3{
+  color: green;
+}
+p{
+  border: 10px double red;
+  text-align: justify;
+}

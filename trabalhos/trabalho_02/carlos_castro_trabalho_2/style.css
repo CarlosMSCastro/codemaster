@@ -1,0 +1,89 @@
+body{
+  text-align: center;
+  background-image: url("img/lisboa_02.jpg");
+  background-attachment: fixed;
+}
+
+#titulo{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  margin-bottom: -3px;
+  margin-top: -3px;
+}
+
+p{font-size: 14px;}
+
+.links{
+  color: gold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.background1{
+  background-color: rgba(255, 255, 255, 70%);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  padding: 0px 18px;
+  border-radius: 20px 0px;
+  margin-top: -10px;
+}
+
+#subtitulo{
+  padding: 8px;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+img{                  
+  width: 23vw;
+  height: 17vw;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px 4.1vw;
+}
+
+th{font-size: 18px;}
+
+th, td{
+  text-align: center;
+  width: 150px;
+  border: 2px dotted black;
+}
+
+table{
+  margin: auto;
+  border: 2px dotted black;
+  border-collapse: collapse;
+}
+
+#lastcollum{width: 250px;}
+
+.filameio{
+  height: 50px;
+  color: red;
+}
+
+#tabela{
+  background-color: rgba(255, 238, 7, 0.452);
+  margin-left: -18px;
+  margin-right: -18px;
+  border-radius: 20px 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#bottom{
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 20px 0px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.linkb{
+  margin: 3px;
+  color: white;
+}

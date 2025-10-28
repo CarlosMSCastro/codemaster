@@ -1,0 +1,193 @@
+body{
+  max-width:1000px;
+  max-height:825px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.topbar{
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 15px;
+  font-size: 13px;
+}
+
+.topbar a{
+  margin-left: 15px;
+  color: #202124;
+  text-decoration: none;
+}
+
+.topbar a:hover{
+  text-decoration: underline;
+}
+
+.topbar-right{
+  display: flex;
+  align-items: center;
+}
+
+.topbar .icon{
+  width: 30px;
+  height: 30px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.topbar .perfil-icon{
+  width: 35px;
+  height: auto;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 170px;
+}
+
+.logo{
+  margin-bottom: 30px;
+}
+
+.search-box {
+  position: relative;
+  width: 580px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 10px 15px;
+  background-color: white;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-box:hover {
+  border: 1.5px solid #d2d2d2;
+  box-shadow: 0 1px 8px rgba(32, 33, 36, 0.3);
+}
+
+.search-box input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.mic-icon{
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.lupa-icon{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.tec-icon{
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button{
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #3c4043;
+}
+
+.buttons button:hover{
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.language-switch{
+  margin-top: 25px;
+  font-size: 14px;
+  color: #4d5156;
+}
+
+.language-switch a{
+  color: #1a0dab;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.language-switch a:hover{text-decoration: underline;}
+
+.footer {
+  width: 100%;
+  font-size: 14px;
+  color: #70757a;
+  background-color: #f2f2f2;
+  margin-top: 180px;
+}
+
+.footer-top {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+}
+
+.footer-top span{color: #70757a;}
+
+
+.last-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  flex-wrap: wrap;
+}
+
+.left-links, .right-links{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.footer-center {
+  text-align: center;
+  min-width: 100%;
+  margin: 10px 0;
+}
+
+.footer a {
+  color: #70757a;
+  text-decoration: none;
+}
+
+.footer a:hover {text-decoration: underline;}
+
+.carbon-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: #70757a;
+  font-size: 14px;
+}
+
+.carbon-link:hover{text-decoration: underline;}
+
+.folha-icon{
+  width: 12px;
+  height: auto;
+  cursor: pointer;
+}

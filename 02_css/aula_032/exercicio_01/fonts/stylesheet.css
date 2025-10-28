@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Mogilte';
+    src: url('Mogilte.eot');
+    src: url('Mogilte.eot?#iefix') format('embedded-opentype'),
+        url('Mogilte.woff2') format('woff2'),
+        url('Mogilte.woff') format('woff'),
+        url('Mogilte.ttf') format('truetype'),
+        url('Mogilte.svg#Mogilte') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

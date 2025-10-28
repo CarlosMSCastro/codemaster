@@ -1,0 +1,109 @@
+body{
+  background-color: white;
+  text-align: center;
+  color: rgb(177, 173, 173);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+}
+
+h1{
+  text-shadow: 1px 1px 2px rgba(41, 243, 165, 0.788);
+  font-size: 35px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: -8px;
+}
+
+.caixa{
+  font-size: 18px;
+  font-weight: bold;
+  color:red;
+  background-image: url("img/balanca.png");
+  width: 656px;
+  height: 434px;
+  margin: auto;
+  position:relative;
+}
+
+input[type="number"]{
+  background-color: rgb(57, 55, 73);
+  border-radius: 6px; 
+  padding: 8px 12px;
+  font-size: 16px;
+  text-align: center;
+  color:red;
+  font-weight: bold;
+  width: 157px;
+  height: 38px;
+}
+#peso{
+  position: absolute;
+  top: 95px;
+  left: 90px;
+  width: 157px;
+  height: 38px;
+}
+
+#preco{
+  position: absolute;
+  top: 180px;
+  left: 90px;
+  width: 157px;
+  height: 38px;
+}
+
+input[type="submit"]{
+  position: absolute;
+  top: 333px;
+  left: 240px;
+  padding: 8px 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgba(253, 144, 2, 0.767);
+  color: rgb(24, 23, 23);
+  border-radius: 5px;
+}
+
+input[type="button"],
+input[type="submit"]{
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover{
+  box-shadow: 0 4px 8px rgba(146, 144, 144, 0.2);
+  background-color: rgb(100, 97, 97);
+}
+
+p{
+  font-size: 35px;
+}
+
+#ppeso{
+  position: absolute;
+  top: 70px;
+  left: 170px;
+}
+
+#ppreco{
+  position: absolute;
+  top: 155px;
+  left: 205px;
+}
+#presultado{
+  position: absolute;
+  top: 237px;
+  left: 225px;
+}
+
+input[type="button"]{
+  position: absolute;
+  top: 333px;
+  left: 150px;
+  background-color: rgba(218, 212, 212,0.8);
+  border-radius: 6px; 
+  padding: 5px 12px;
+  font-size: 12px;
+  text-align: center;
+}

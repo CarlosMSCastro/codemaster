@@ -1,0 +1,17 @@
+original="Boa noite CodeMaster!"
+
+print("\n\n")
+print("---Métodos e Funções das string---")
+print()
+print("String 'original': ("+ original+")")
+print()
+print("String 'capitalizada': ("+ original.capitalize()+")")
+print("String 'minúsculas': ("+ original.lower()+")")
+print("String 'title': ("+ original.title()+")")
+print("String 'maíusculas': ("+ original.upper()+")")
+print()
+print("String 'total de letras e': (" + str(original.count("e"))+")")
+print("String 'tamanho total com função': (" + str(len(original))+")")
+print()
+print("String 'substitui todo (e) por (x)': ("+ original.replace("e","x")+")")
+print("\n\n")

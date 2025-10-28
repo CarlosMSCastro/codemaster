@@ -1,0 +1,22 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+.titulos{
+  text-align:center;
+}
+
+.azul{
+  background-color: aqua;
+}
+
+.roxo{
+  background-color: purple;
+  color: violet;
+  border: 3px solid red
+}
+
+.laranja{
+  background-color: coral;
+  border:3px dotted aqua;
+}

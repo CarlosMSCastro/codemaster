@@ -1,0 +1,22 @@
+p{
+  background-color :red;
+  color: purple;
+  border: 5px dashed red;
+}
+
+.amarelo{
+  background-color: yellow;
+  color: white;
+}
+
+#especial{
+  background-color: blue;
+}
+
+h1,h3 {
+  text-align: center;
+}
+
+pre{
+  text-align: center;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#carousel-topo .carousel-caption{
+  /* border: 1px solid red; */
+  top: 45%;
+  width: 700px;
+  margin: auto !important;
+}
+
+#carousel-topo .carousel-caption h5{
+  font-family: "Roboto Condensed";
+  font-size: 55px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#carousel-topo .carousel-caption p{
+  font-family: "Roboto Condensed";
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#carousel-topo .carousel-indicators{
+  /* border: 3px solid black; */
+  transform: translate(100px, -15px);
+}
+
+#carousel-topo .carousel-indicators button{
+  /* border: 1px solid red; */
+  width: 30px;
+  height: 30px;
+  background-image: url("../imagens/SVG/banner-por-selecionar.svg");
+  background-position: center;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-color: transparent;
+  opacity: 100%;
+}
+
+#carousel-topo .carousel-indicators button.active{
+  background-image: url("../imagens/SVG/banner-selecionado.svg");
+}
+
+header .logo{
+  width: 134px;
+}
+
+#topo-site{
+  position: absolute;
+  top: 32px;
+  z-index: 10;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+#topo-site img{cursor: pointer;}
+
+#lista-energias > div{
+  /* border: 1px solid red; */
+  height: 460px;
+  background-position: center;
+  background-size: cover;
+}
+
+#lista-energias .sombra{
+  font-family: "Roboto Condensed";
+  font-size: 42px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* border: 1px solid white; */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#solar{
+  background-image: url("../imagens/JPG/banner-energia-solar.jpg");
+}

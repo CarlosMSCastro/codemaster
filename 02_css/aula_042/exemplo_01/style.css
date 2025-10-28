@@ -1,0 +1,44 @@
+div{background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    position:relative}
+
+#div-1{
+  animation-name: mover_especial, girar, mudar_cor_pro;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  /*animation-delay: 5s;*/
+}
+
+@keyframes mover{
+  from{left:0px;}
+  to{left:300px;}
+}
+
+@keyframes mover_especial{
+  0%{left: 0px;
+  top:0px;}
+  33%{top:50px;}
+  66%{top: 0px;}
+  100%{left:300px;}
+}
+
+@keyframes girar{
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}
+
+@keyframes mudar_cor{
+  from{background-color: red;}
+  to {background-color:yellow;}
+}
+
+@keyframes mudar_cor_pro{
+  0%{background-color: red;}
+  50%{background-color: green;}´
+  100%{background-color: yellow;}
+}

@@ -1,0 +1,14 @@
+body{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.azul{
+  background-color: aquamarine;
+  padding: 80px;
+}
+
+.verde{
+  background-color: lawngreen;
+  padding: 20px 10px;
+}

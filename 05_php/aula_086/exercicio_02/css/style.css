@@ -1,0 +1,35 @@
+body{
+  background-color: black;
+  font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.banner{
+  position:relative;
+  background-color: grey;
+  border: 2px solid rgb(223, 222, 222);
+  width: 70%;
+  height: 150px;
+  border-radius: 20px;
+  margin: 30px auto 0;
+  overflow:hidden;
+}
+
+.imagem{
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 250px;
+  height: 100%;
+}
+
+.imagem img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.texto{margin-left: 265px;}
+
+#nome{font-size: 18px;}

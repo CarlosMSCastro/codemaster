@@ -1,0 +1,42 @@
+body{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.sub{
+  color:red;
+}
+
+nav{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a{
+  color: white;
+  text-transform: uppercase;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+main .texto{
+  padding: 0px 50px;
+  text-align: justify;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+main .texto img{
+  width: 30%;
+  float: left;
+}
+
+footer{
+  background-color: black;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+}

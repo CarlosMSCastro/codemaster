@@ -1,0 +1,27 @@
+.titulos{
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.vermelho{
+  background-color: red;
+  color: white;
+  border: 3px dotted yellow;
+  font-size: 18px;
+  line-height: 22px;
+ 
+}
+
+.amarelo{
+  background-color: yellow;
+  border: 3px dotted red;
+  font-size: 11px;
+}
+
+#special{
+  border: 6px solid lightgreen;
+  border-radius: 20px 0px;
+  background-color: blue;
+  color: wheat;
+  text-align: center;
+}

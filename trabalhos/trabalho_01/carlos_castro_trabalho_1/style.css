@@ -1,0 +1,46 @@
+
+.codigo {
+  background-color: rgb(46, 47, 48);
+  color: white;
+  padding: 0 4px;
+  border: 1px solid gray; 
+}
+
+.tag{
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+.atribute{
+  color: aqua;
+}
+
+.aspas{
+  color: coral;
+}
+
+p{
+  text-indent: 10px;
+}
+
+table{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+caption{
+  background-color: yellow;
+}
+
+tr, th, td{
+  border: 2px dashed black;
+}
+
+.titulo1{
+  color: red;
+}
+
+.exemplo3_3{
+  background-color: royalblue;
+  color:coral
+}

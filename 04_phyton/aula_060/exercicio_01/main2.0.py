@@ -1,0 +1,6 @@
+print()
+print("---DADOS---")
+print("Nome: Carlos Castro")
+print("Morada: (Braga)")
+print("Idade: (28)")
+print()

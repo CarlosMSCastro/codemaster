@@ -1,0 +1,27 @@
+body{
+  background-color: rgb(31, 30, 30);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div{
+  text-align: center;
+  font-size: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 15px;
+  border-radius: 30px;
+  margin: auto;
+}
+.neve{
+  background-image: url("../img/neve.jpg");
+  width: 600px;
+  height: 410px;
+}
+
+.praia{
+  background-image: url("../img/praia.jpg");
+  width: 400px;
+  height: 275px;
+  margin-top: -375px;
+}

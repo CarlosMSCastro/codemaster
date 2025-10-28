@@ -1,0 +1,19 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+.azul{
+  background-color: aquamarine;
+  padding: 50px
+}
+
+.green{
+  background-color: greenyellow;
+  margin: 75px
+}
+
+.rosa{
+  background-color: hotpink;
+  padding: 30px 20px 0px 60px;
+}

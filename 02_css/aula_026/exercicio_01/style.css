@@ -1,0 +1,63 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+div{
+  width: 225px;
+  height: 225px;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid black;
+  text-align: justify;
+  padding: 15px;
+}
+
+#red{
+  background-color: red;
+}
+
+#green{
+  background-color: green;
+  margin-top: 70px;
+  overflow: auto;
+}
+
+.dica{
+  font-size: 12px;
+  font-style: italic;
+}
+
+#blue{
+  background-color: blue;
+  overflow: scroll;
+}
+
+#rosa{
+  background-color: pink;
+}
+
+img{
+  border:1px solid black;
+}
+#lgreen{
+  background-color: lightgreen;
+  overflow: auto;
+  margin-top: 330px; 
+}
+#lblue{
+  background-color: lightblue;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#orange{
+  background-color: orange;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#purple{
+  background-color: purple;
+  overflow: hidden;
+}

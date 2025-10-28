@@ -1,0 +1,26 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+  font-size: 56px;
+}
+.top{
+  background-color: aqua;
+}
+
+.redtext{
+  color: red;
+}
+.amarelo{
+  color: yellow;
+  font-size: 22px;
+}
+
+.bottom{
+  color:white;
+  background-color: crimson;
+}
+p{
+  font-size: 32px;
+}

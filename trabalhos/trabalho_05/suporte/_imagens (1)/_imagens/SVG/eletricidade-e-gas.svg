@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="226.101" height="154.113" viewBox="0 0 226.101 154.113">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-7 {
+        opacity: 0.35;
+        mix-blend-mode: multiply;
+        isolation: isolate;
+      }
+
+      .cls-8 {
+        fill: #631011;
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-10 {
+        filter: url(#Rectangle_354);
+      }
+
+      .cls-11 {
+        filter: url(#Rectangle_353);
+      }
+
+      .cls-12 {
+        filter: url(#Path_1845);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.107" y1="0.119" x2="0.767" y2="0.948" gradientUnits="objectBoundingBox">
+      <stop offset="0.386" stop-color="#ce000f"/>
+      <stop offset="1" stop-color="#631011"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.022" y1="0.248" x2="0.895" y2="0.865" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff1038"/>
+      <stop offset="0.165" stop-color="#f81236"/>
+      <stop offset="0.401" stop-color="#e51731"/>
+      <stop offset="0.68" stop-color="#c62028"/>
+      <stop offset="0.737" stop-color="#bf2327"/>
+    </linearGradient>
+    <filter id="Path_1845" x="154.603" y="66.196" width="59.616" height="79.471" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.182" y1="0.077" x2="0.764" y2="0.675" gradientUnits="objectBoundingBox">
+      <stop offset="0.046" stop-color="#ce000f"/>
+      <stop offset="0.077" stop-color="#bf020f"/>
+      <stop offset="0.17" stop-color="#970810"/>
+      <stop offset="0.255" stop-color="#7a0c10"/>
+      <stop offset="0.328" stop-color="#690f10"/>
+      <stop offset="0.382" stop-color="#631011"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.32" y1="-0.561" x2="0.641" y2="1.328" gradientUnits="objectBoundingBox">
+      <stop offset="0.505" stop-color="#ce000f"/>
+      <stop offset="0.525" stop-color="#c7000f"/>
+      <stop offset="0.674" stop-color="#9c070f"/>
+      <stop offset="0.808" stop-color="#7c0c10"/>
+      <stop offset="0.921" stop-color="#690e10"/>
+      <stop offset="1" stop-color="#631011"/>
+    </linearGradient>
+    <filter id="Rectangle_353" x="23.031" y="103.538" width="64.745" height="41.83" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-2"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="0.32" y1="-0.561" x2="0.641" y2="1.328" gradientUnits="objectBoundingBox">
+      <stop offset="0.41" stop-color="#ce000f"/>
+      <stop offset="0.5" stop-color="#bc020f"/>
+      <stop offset="0.839" stop-color="#7c0c10"/>
+      <stop offset="1" stop-color="#631011"/>
+    </linearGradient>
+    <filter id="Rectangle_354" x="23.031" y="112.283" width="64.745" height="41.83" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur-3"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-6" x1="0.206" y1="0.069" x2="0.868" y2="0.932" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff1038"/>
+      <stop offset="0.526" stop-color="#ce000f"/>
+      <stop offset="0.611" stop-color="#c1010f"/>
+      <stop offset="0.768" stop-color="#9f060f"/>
+      <stop offset="0.978" stop-color="#690f10"/>
+      <stop offset="1" stop-color="#631011"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.246" y1="0.012" x2="0.754" y2="1.285" gradientUnits="objectBoundingBox">
+      <stop offset="0.079" stop-color="#ce000f"/>
+      <stop offset="0.204" stop-color="#c5010f"/>
+      <stop offset="0.405" stop-color="#ae040f"/>
+      <stop offset="0.654" stop-color="#880a10"/>
+      <stop offset="0.855" stop-color="#651012"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_373" data-name="Group 373" transform="translate(-846.949 -1721.622)">
+    <g id="Group_367" data-name="Group 367">
+      <path id="Path_1844" data-name="Path 1844" class="cls-1" d="M1065.184,1848.2a55.809,55.809,0,0,1-12.75,11.535c-23.849,15.992-61.072,5.137-70.634-21.936-3.88-10.995-3.722-25.044,6.806-41.813,1.044-1.664,3.679-4.353,4.936-6.071,0,.006-6.1,11.158,7.285,10.321,9.714-.607,13.679-9.623,14.571-11.536,4.25-9.107,11.84-36.094.608-50.392l.1.037a.411.411,0,0,0,.048.018c2.562.965,37.321,14.929,32.64,57.623,0,0,13.357-6.071,6.071-27.928C1054.862,1768.061,1087.648,1822.1,1065.184,1848.2Z"/>
+      <g class="cls-12" transform="matrix(1, 0, 0, 1, 846.95, 1721.62)">
+        <path id="Path_1845-2" data-name="Path 1845" class="cls-2" d="M1032.3,1858.876a22.293,22.293,0,0,1-22.478-9.374c-5.052-7.2-7.914-18.65,4.963-33.644,0,0,11.071-12.969,8.54-24.04,0,0,19.611,6.959,17.081,30.05,0,0,6.959-3.163,3.163-14.551,0,0,17.233,28.195,5.529,41.8A27.655,27.655,0,0,1,1032.3,1858.876Z" transform="translate(-846.95 -1721.62)"/>
+      </g>
+    </g>
+    <g id="Group_372" data-name="Group 372">
+      <g id="Group_371" data-name="Group 371">
+        <path id="Rectangle_352" data-name="Rectangle 352" class="cls-3" d="M2.269,0H21.618a2.269,2.269,0,0,1,2.269,2.269v14.8A10.666,10.666,0,0,1,13.221,27.733H10.666A10.666,10.666,0,0,1,0,17.067V2.269A2.269,2.269,0,0,1,2.269,0Z" transform="translate(889.017 1836.301)"/>
+        <g class="cls-11" transform="matrix(1, 0, 0, 1, 846.95, 1721.62)">
+          <rect id="Rectangle_353-2" data-name="Rectangle 353" class="cls-4" width="28.745" height="5.83" rx="2.603" transform="translate(39.03 119.54)"/>
+        </g>
+        <g class="cls-10" transform="matrix(1, 0, 0, 1, 846.95, 1721.62)">
+          <rect id="Rectangle_354-2" data-name="Rectangle 354" class="cls-5" width="28.745" height="5.83" rx="2.603" transform="translate(39.03 128.28)"/>
+        </g>
+        <path id="Path_1846" data-name="Path 1846" class="cls-6" d="M912.7,1834.277H888.815c-17.41-27.936-16.2-46.964-16.2-46.964l0-.005a28.135,28.135,0,0,1,56.268-.016.038.038,0,0,1,0,.021C930.111,1797.839,912.7,1834.277,912.7,1834.277Z"/>
+        <g id="Group_370" data-name="Group 370">
+          <image id="Rectangle_355" data-name="Rectangle 355" class="cls-7" width="46" height="52" transform="translate(880 1792)" xlink:href="data:image/png;base64,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"/>
+          <g id="Group_369" data-name="Group 369">
+            <g id="Group_368" data-name="Group 368">
+              <path id="Path_1847" data-name="Path 1847" class="cls-8" d="M907.969,1832.628h-15.4l-5.475-28.836a3.1,3.1,0,0,1,4.765-3.158l6.12,4.081a5.149,5.149,0,0,0,5.8-.042l6.912-4.752a2.441,2.441,0,0,1,3.769,2.526Zm-13.722-2.024h12.086l6.151-28.583a.417.417,0,0,0-.644-.431l-6.911,4.752a7.167,7.167,0,0,1-8.07.057l-6.121-4.08a1.076,1.076,0,0,0-1.654,1.095Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Path_1848" data-name="Path 1848" class="cls-9" d="M901.639,1746.846c0,2.609-4.048,2.605-4.048,0v-23.269c0-2.609,4.048-2.6,4.048,0v23.269Zm17.982,4.064,10.11-21.228c1.115-2.34-2.375-4.4-3.5-2.043l-10.11,21.228c-1.114,2.34,2.375,4.4,3.5,2.043Zm10.847,12.362,20.66-12.735c2.214-1.365.183-4.868-2.043-3.5l-20.66,12.735c-2.214,1.364-.183,4.868,2.043,3.5Zm-47.559-14.405-10.11-21.228c-1.12-2.351-4.612-.3-3.5,2.043l10.11,21.228c1.12,2.351,4.612.3,3.5-2.043Zm-12.3,10.909-20.659-12.735c-2.225-1.371-4.26,2.13-2.044,3.5l20.66,12.735c2.224,1.371,4.26-2.13,2.043-3.5Z"/>
+    </g>
+  </g>
+</svg>

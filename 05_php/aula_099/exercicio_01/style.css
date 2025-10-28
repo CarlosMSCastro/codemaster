@@ -1,0 +1,23 @@
+.carousel-item img {
+  height: 300px;
+}
+
+#carousel1 {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4); 
+  overflow: hidden;
+}
+
+footer{
+  box-shadow: 0 -5px 15px rgba(0,0,0,0.4); 
+}
+
+
+.nav-item.dropdown > a::after {
+  display: none;
+}
+
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}

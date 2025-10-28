@@ -1,0 +1,8 @@
+body{
+  background-image: url(../../../01_html/aula_015/img/fundo.jpg);
+}
+
+p{
+  border: 5px solid black;
+  text-align: justify;
+}

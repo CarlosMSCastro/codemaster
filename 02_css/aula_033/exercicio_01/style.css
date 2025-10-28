@@ -1,0 +1,20 @@
+body{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+div{
+  border: 2px solid black;
+  padding: 10px;
+  background-color: lightgreen;
+  width: 350px;
+  margin: 10px auto;
+}
+#d1::selection{background-color:yellow;color:red}
+#ol li::marker{color: red;}
+#ul li::marker{color: red;}
+#d2::first-letter{background-color: yellow;font-size:35px;color:red}
+#d3::first-line{background-color:yellow; color:red}
+#d4 label::before{content: url("img/bob_mini.jpg")}
+#d5 label::after{content: ")"}

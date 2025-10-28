@@ -1,0 +1,22 @@
+:root{
+  --cor-principal: rgba(0, 28, 190, 0.363);
+  --tamanho: 15px;
+}
+
+h1{
+  color: var(--cor-principal)
+}
+
+h3{
+  border: var(--tamanho) solid var(--cor-principal)
+}
+
+p{
+  background-color: var(--cor-principal)
+}
+
+p>span{font-size: var(--tamanho)}
+
+div::first-letter{
+  color: var(--cor-principal)
+}

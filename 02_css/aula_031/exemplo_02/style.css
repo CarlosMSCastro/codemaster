@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+@font-face{
+  src:url("fonts/Borel-Regular.ttf");
+  font-family: "Borel";
+}
+
+@font-face{
+  src:url("fonts/Baumans-Regular.ttf");
+  font-family: "Baumans";
+}
+
+h1,h2,input{text-align: center;}
+
+div{
+  width: 300px;
+  height: auto;
+  margin-top: 30px;
+  text-align: justify;
+  padding: 10px;
+  background-color: lightgreen;
+  border: 3px solid black;
+  font-size: 20px;
+}
+#d1{font-family: 'Michroma'} /* fonte vem do get embed code @import*/
+#d2{font-family: Borel} /* fonte vem da pasta /fonts*/
+#d3{font-family: Baumans}/* fonte vem da pasta /fonts*/
+

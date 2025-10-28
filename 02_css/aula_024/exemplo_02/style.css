@@ -1,0 +1,17 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mensagem1{
+  height: 25vh;
+}
+
+#mensagem2{
+  resize: both;
+  width: 25vw;
+  max-width: 50vw;
+  min-width: 20vw;
+  height: 25vh;
+  max-height: 50vh;
+  min-height: 20vh;
+}

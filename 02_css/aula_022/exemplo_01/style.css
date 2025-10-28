@@ -1,0 +1,92 @@
+body{
+  margin: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div{
+  border: 3px solid black;
+  margin: 10px;
+}
+
+#div-1{
+  background-color: blue;
+  width: 200px;
+}
+
+#div-2{
+  background-color: red;
+  width: 10cm;
+}
+
+#div-3{
+  background-color: yellow;
+  width: 150mm;
+}
+
+#div-4{
+  background-color: hotpink;
+  width: 7.5in;
+}
+
+#div-5{
+  background-color: greenyellow;
+  width: 100pt;
+}
+
+#div-6{
+  background-color: grey;
+  width: 2.5pc;
+}
+#pai-7{
+ font-size: 25px;
+}
+
+#filho-7{
+  background-color: orange;
+  width: 20em;
+}
+
+#pai-8{
+ font-size: 16px;
+}
+
+#filho-8{
+  background-color: purple;
+  color: wheat;
+  width: 20rem;
+}
+
+#filho-9{
+  background-color: violet;
+  color: wheat;
+  width: 50vw;
+}
+
+#filho-10{
+  background-color: violet;
+  color: wheat;
+  font-size: 5vw; /*fontsize com 5% do w do navegador*/
+}
+
+#filho-11{
+  background-color: red;
+  color: wheat;
+  font-size: 5vh; /*fontsize com 5% do h do navegador*/
+}
+
+#filho-12{
+  background-color: red;
+  color: wheat;
+  width: 25vmax;
+}
+
+#filho-13{
+  background-color: orange;
+  color: wheat;
+  width: 50vmin;
+}
+#filho-14{
+  background-color: goldenrod;
+  color: wheat;
+  width: 50%;
+}
