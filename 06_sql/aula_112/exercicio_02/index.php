@@ -10,12 +10,14 @@ if ($form) {
   $stock = intval($_GET["stock"]);
   $codigo = ($_GET["codigo"]);
   $fornecedor = ($_GET["fornecedor"]);
+
+  $verificacao = select_sql_unico("SELECT * FROM produtos WHERE codigo='$codigo'");
   
-  idu_sql("INSERT INTO produtos (nome, preco, stock, codigo, fornecedor) VALUES('$nome', '$preco','$stock','$codigo','$fornecedor')");
-
-  header("Location: index.php");
+  if(empty($verificacao)){
+    idu_sql("INSERT INTO produtos (nome, preco, stock, codigo, fornecedor) VALUES('$nome', '$preco','$stock','$codigo','$fornecedor')");
+    header("Location: index.php");
+  }
 }
-
 $produtos = select_sql("SELECT * FROM produtos ORDER BY id DESC");
 
 ?>
@@ -31,7 +33,9 @@ $produtos = select_sql("SELECT * FROM produtos ORDER BY id DESC");
 <body>
   <h1>INSET INTO</h1>
   <div class="caixa">
-    <h3>Novo Produto</h3>
+    <?php if(!empty($verificacao)): ?>
+      <h3>O código <?= $codigo ?> já existe.</h3>
+    <?php endif ?>
     <form method="get" action="">
       <input type="text" name="nome" required placeholder="Nome" value="<?= $nome ?>">
       <input type="number" name="preco" min="0" step="0.01" required placeholder="Preço"><br>
