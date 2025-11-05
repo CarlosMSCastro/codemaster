@@ -24,11 +24,11 @@ if($form){
     <form action="">
 
       <label for="cor">Cor das roupas</label>
-      <select name="cor" id="cor">
-        <option value="branca">Branca</option>
-        <?php if($cor =="preta"){echo "selected";} ?>
-        <option value="preta" <?= =="preta">Preta</option>
-      </select>
+    <select name="cor" id="cor">
+      <option value="branca" <?= isset($cor) && $cor=="branca" ? "selected" : "" ?>>Branca</option>
+      <option value="preta"  <?= isset($cor) && $cor=="preta"  ? "selected" : "" ?>>Preta</option>
+    </select>
+
 
       <br><br>
 

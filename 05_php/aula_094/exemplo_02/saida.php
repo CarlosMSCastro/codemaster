@@ -12,7 +12,7 @@ if($form){
   $lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.";
   
   //Opcional para usar a data como prefixo
-  date_default_timezone_set("Europe/Lisbon")
+  date_default_timezone_set("Europe/Lisbon");
   $date = date("Y_m_d_H_i_s");
 
   //captura o ficheiro
