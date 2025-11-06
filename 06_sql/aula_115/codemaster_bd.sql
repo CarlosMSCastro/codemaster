@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 03-Nov-2025 às 23:55
+-- Tempo de geração: 05-Nov-2025 às 22:47
 -- Versão do servidor: 10.4.32-MariaDB
 -- versão do PHP: 8.2.12
 
@@ -102,11 +102,13 @@ INSERT INTO `produtos` (`id`, `nome`, `preco`, `codigo`, `fornecedor`, `stock`) 
 (11, 'Caneca Azul', 1.99, '011', 'Continente', 120),
 (12, 'Teclado Mecanico', 129.99, '012', 'PC Diga', 25),
 (13, 'Monitor 4k 24\"', 549.99, '013', 'PC Diga', 8),
+(14, 'Nike Dunk Low SB', 129.99, '014', 'Nike Outlet', 17),
 (15, 'Rato Bluetooth HP', 19.99, '015', 'Worten', 15),
 (16, 'Webcam Logitech', 29.99, '016', 'FNAC', 35),
 (17, 'Kit Ferramentas iFixit', 39.99, '017', 'PC Diga', 10),
 (18, 'Monitor ASUS 144hz', 119.99, '018', 'Global Data', 10),
 (19, 'Monitor 2k 27\"', 200.99, '019', 'Worten', 10),
+(20, 'Caneta Roxa', 1.99, '020', 'FNAC', 42),
 (21, 'Cadeira Gamer', 349.99, '021', 'NobleChair', 8),
 (33, 'Caneca Verde', 1.99, '022', 'Continente', 125),
 (34, 'Caneca Vermelha', 1.99, '023', 'Continente', 124),
@@ -125,16 +127,9 @@ CREATE TABLE `produtos_backup` (
   `preco` double NOT NULL,
   `codigo` varchar(3) NOT NULL,
   `fornecedor` varchar(100) NOT NULL,
-  `stock` int(11) NOT NULL
+  `stock` int(11) NOT NULL,
+  `data_apagado` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Extraindo dados da tabela `produtos_backup`
---
-
-INSERT INTO `produtos_backup` (`id`, `nome`, `preco`, `codigo`, `fornecedor`, `stock`) VALUES
-(20, 'Caneta Roxa', 1.99, '020', 'FNAC', 42),
-(14, 'Nike Dunk Low SB', 129.99, '014', 'Nike Outlet', 17);
 
 --
 -- Índices para tabelas despejadas

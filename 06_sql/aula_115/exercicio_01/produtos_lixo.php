@@ -6,12 +6,19 @@ $produtos = select_sql("SELECT * FROM produtos_backup ORDER BY id ASC");
 
 if(!empty($_GET["id"])){
   $id = intval($_GET["id"]);
-  $pe = select_sql_unico("SELECT nome FROM produtos_backup WHERE id=$id");
 
-  idu_sql("INSERT INTO produtos SELECT * FROM produtos_backup WHERE id=$id");
+  idu_sql("
+    INSERT INTO produtos (id, nome, preco, codigo, fornecedor, stock)
+    SELECT id, nome, preco, codigo, fornecedor, stock
+    FROM produtos_backup
+    WHERE id=$id
+  ");
+
   idu_sql("DELETE FROM produtos_backup WHERE id=$id");
+
   header("Location: produtos_lixo.php");
 }
+
 
 ?>
 
@@ -43,6 +50,7 @@ if(!empty($_GET["id"])){
           <th>Código</th>
           <th>Fornecedor</th>
           <th>Stock</th>
+          <th>Data apagado</th>
           <th>Ações</th>
         </tr>
         <?php foreach ($produtos as $p) {?>        
@@ -53,6 +61,7 @@ if(!empty($_GET["id"])){
           <td><?= $p["codigo"] ?></td>
           <td><?= $p["fornecedor"] ?></td>
           <td><?= $p["stock"] ?></td>
+          <td><?= $p["data_apagado"] ?></td>
           <td>
             <a href="produtos_lixo.php?id=<?= $p ['id'] ?>">
               <button><i class="bi bi-arrow-counterclockwise"></i></button>

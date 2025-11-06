@@ -9,7 +9,15 @@ if($form){
   $pe = select_sql_unico("SELECT nome FROM produtos WHERE id=$id");
   $resposta = $_GET["resposta"] ?? null;
   if(!empty($resposta)){
-    idu_sql("INSERT INTO produtos_backup SELECT * FROM produtos WHERE id=$id");
+    date_default_timezone_set("Europe/Lisbon");
+    $data = date("H:i:s - d/m/Y");
+
+    idu_sql("
+  INSERT INTO produtos_backup (id, nome, preco, codigo, fornecedor, stock, data_apagado)
+  SELECT id, nome, preco, codigo, fornecedor, stock, '$data'
+  FROM produtos
+  WHERE id=$id
+");
     idu_sql("DELETE FROM produtos WHERE id=$id");
     header("Location: index.php");
   }

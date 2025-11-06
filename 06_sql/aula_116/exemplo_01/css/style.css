@@ -90,19 +90,9 @@ tr:hover {
 
 /* ---------- BOTÕES E LINKS ---------- */
 
-/* neutraliza o <a> em volta dos botões */
-.caixa a {
-  display: inline-block;
-  background: transparent;
-  padding: 0;
-  border: none;
-  text-decoration: none;
-}
 
 /* estilo base para todos os botões */
-.caixa a button,
-.caixa button,
-.reset-btn {
+.caixa button{
   display: inline-block;
   border: none;
   border-radius: 6px;
@@ -117,27 +107,24 @@ tr:hover {
 
 /* botão X (na tabela) */
 .caixa table a button {
-  background-color: #ef4444;
+  background-color: #1a5c25;
 }
 .caixa table a button:hover {
-  background-color: #dc2626;
-  transform: scale(1.05);
+  background-color: #288a38;
+  transform: scale(1.15);
 }
 
-/* botão verde SIM */
-button.sim {
-  background-color: #22c55e;
-}
-button.sim:hover {
-  background-color: #16a34a;
-  transform: scale(1.05);
+
+input[type="submit"]{
+  padding: 6px 10px;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  background-color: #6c63ff;
+  color: #fff;
+  font-size: 14px;
+  width: 100px;
+  text-align: center;
+  margin: 8px 5px;
+  cursor:pointer;
 }
 
-/* botão vermelho NÃO */
-button.nao {
-  background-color: #ef4444;
-}
-button.nao:hover {
-  background-color: #dc2626;
-  transform: scale(1.05);
-}
