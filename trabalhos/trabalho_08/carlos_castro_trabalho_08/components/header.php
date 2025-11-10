@@ -22,7 +22,7 @@ require_once "helpers/base_dados.php";
       <div class="row m-0">
         <div class="col-12 p-0">
           <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
-            <a class="navbar-brand mx-1" href="#">Agencia de Viagens 2.0</a>
+            <a class="navbar-brand mx-1" href="index.php">Agencia de Viagens 2.0</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,7 +38,7 @@ require_once "helpers/base_dados.php";
                   <ul class="dropdown-menu">
                     <?php foreach($viagens as $i => $v): ?>
                       <li>
-                        <a class="dropdown-item" href="viagem.php?nome=<?= $v->nome ?>">
+                        <a class="dropdown-item" href="viagem.php?id=<?= $i ?>">
                           <?= $v->nome ?>
                         </a>
                       </li>

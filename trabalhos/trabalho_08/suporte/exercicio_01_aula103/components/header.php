@@ -27,12 +27,12 @@ require_once "helpers/base_dados.php";
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                  <a class="nav-link active py-2" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle py-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Filmes
                   </a>
                   <ul class="dropdown-menu dropdown-menu-dark">
