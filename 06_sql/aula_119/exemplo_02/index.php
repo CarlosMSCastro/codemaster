@@ -3,13 +3,25 @@
 require_once "helpers/base_dados_helper.php";
 
 $pagina = $_GET["pagina"] ?? 1;
-$elemento_por_pagina = 3;
+$elemento_por_pagina = 1;
 $total_elementos = select_sql_unico("SELECT Count(*) FROM produtos")["Count(*)"];
 $total_paginas = ceil($total_elementos / $elemento_por_pagina);
 if($pagina < 1){$pagina=1;}
 elseif($pagina > $total_paginas){$pagina = $total_paginas;}
 $ignorar = ($pagina - 1) * $elemento_por_pagina;
 
+$abreviar = 2;
+$inicio = $pagina - $abreviar;
+$fim = $pagina + $abreviar;
+
+if($inicio < 1){
+  $fim += $abreviar - (1 + $inicio);
+  $inicio = 1;
+}
+if($fim >$total_paginas){
+  $inicio -= $fim - $total_paginas;
+  $fim = $total_paginas;
+}
 
 
 $produtos = select_sql("SELECT * FROM produtos LIMIT $elemento_por_pagina OFFSET $ignorar");
@@ -23,7 +35,7 @@ $produtos = select_sql("SELECT * FROM produtos LIMIT $elemento_por_pagina OFFSET
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercício 119.1</title>
+  <title>Exercício 119.2</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -70,14 +82,22 @@ $produtos = select_sql("SELECT * FROM produtos LIMIT $elemento_por_pagina OFFSET
       <button><</button>
     </a>
 
-    <?php for($i=1; $i<=$total_paginas; $i++): ?>
+    <?php if($pagina >= $abreviar + 2): ?> 
+      <div>...</div>    
+    <?php endif ?>
+    
+    <?php for($i=$inicio; $i<=$fim; $i++): ?>
 
       <a href="index.php?pagina=<?= $i ?>">
         <button class="<?= ($i == $pagina) ? "active" : "" ?>"><?= $i ?></button>
       </a>
 
     <?php endfor ?>
-
+    
+    <?php if($pagina < $total_paginas - $abreviar): ?> 
+      <div>...</div>    
+    <?php endif ?>
+    
     <a href="index.php?pagina=<?= $pagina+1 ?>">
       <button>></button>
     </a>
