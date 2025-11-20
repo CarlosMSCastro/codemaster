@@ -1,0 +1,84 @@
+body{
+  background-color: #2e2e2eff;
+  text-align: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.caixa{
+  min-width: 400px;
+  max-width: 900px;
+  width: 75%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  margin: 20px auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.caixa input[type="color"]{
+  width: 60px;
+  height: 40px;
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+}
+
+.caixa img{
+  width: 400px;
+  height: auto;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.caixa label{
+  font-size: 22px;
+}
+
+
+
+ol{
+  text-align: left;
+}
+
+table{margin: 10px auto !important;}
+table, td, th{
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 10px;
+}
+tr:nth-of-type(even){
+  background-color: rgba(255, 255, 255, 0.217);
+}
+
+
+
+
+
+.active{
+  border: 5px dashed red;
+  color:blue;
+  background-color: green;
+  text-decoration: underline wavy 3px red;
+  font-size:25px;
+}
+
+button{
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+  margin: 4px;
+}
