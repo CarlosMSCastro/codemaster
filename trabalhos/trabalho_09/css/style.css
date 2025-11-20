@@ -1,0 +1,103 @@
+body{
+  max-width:1600px;
+  margin:0 auto;
+  font-family: 'Proxima Nova ExCn Rg';
+  background-color: #ffffff;
+}
+
+.titulos{
+  font-family: 'Proxima Nova ExCn Lt';
+}
+
+#logoprincipal{
+  display:block;
+  margin:40px auto 10px;
+  height:116px;
+  width:210px;
+  width: fit-content;
+}
+
+.social-icons {
+    display: flex;
+    position: absolute;
+    top: 130px;
+    right: 110px;
+    align-items: center;
+    gap: 12px;
+}
+
+.social-icons img {
+    width: 30.28px;
+    height: 29.11px;
+}
+.separator {
+    width: 1px;
+    height: 32px;
+    background-color: #716E6E;
+    margin-left: 5px;
+    margin-right: 4px;
+}
+#carousel1 {
+    width: 1600px;
+    height: 521px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+#carousel1 img {
+    width: 1600px;
+    height: 521px;
+    object-fit: cover;
+}
+
+/* Colocar os indicadores na vertical */
+.carousel-indicators {
+    position: absolute;
+    top: 50%;
+    right: 25px;                /* ajustas depois */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;     /* ← isto faz vertical */
+    gap: 12px;                  /* espaçamento entre bolinhas */
+    margin: 0;
+    z-index: 20 !important;
+}
+
+.carousel-inner {
+  position:relative;
+  z-index: 1;
+}
+
+.carousel-indicators button {
+    display: block !important;
+    width: 22px !important;
+    height: 22px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    border: none !important;
+    opacity: 1 !important;
+}
+
+/* Inativo */
+.carousel-indicators button:not(.active) {
+    background-image: url("../imagens/carousel1/bola_branca_nao_seleccionada.svg") !important;
+}
+
+/* Ativo */
+.carousel-indicators .active {
+    background-image: url("imagens/carousel1/bola_branca_seleccionada.svg") !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 22px !important;
+    height: 22px !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
