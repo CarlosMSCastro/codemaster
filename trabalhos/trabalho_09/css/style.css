@@ -9,27 +9,43 @@ body{
     font-family: 'Proxima Nova ExCn Lt';
 }
 
+/* Container do header para manter tudo centralizado */
+header .container-fluid {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Container do logo e social icons */
+header .row:first-child .col-12 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    min-height: 196px;
+}
+
 #logoprincipal{
-    display:block;
-    margin:40px auto 10px;
-    height:116px;
-    width:210px;
-    width: fit-content;
+    display: block;
+    height: 116px;
+    width: 210px;
+    margin: 0;
 }
 
 .social-icons {
     display: flex;
     position: absolute;
-    top: 130px;
-    right: 110px;
+    top:125px;
+    right: 105px;
     align-items: center;
     gap: 12px;
-    }
+}
 
 .social-icons img {
     width: 30.28px;
     height: 29.11px;
 }
+
 .separator {
     width: 1px;
     height: 32px;
@@ -37,26 +53,26 @@ body{
     margin-left: 5px;
     margin-right: 4px;
 }
+
 #carousel1 {
-    width: 1600px;
-    height: 521px;
+    width: 100%;
+    max-width: 1600px;
     margin: 0 auto;
     position: relative !important;
+    box-shadow:1px 1px 10px #3E3E3E;
 }
-
 
 #carousel1 img {
-    width: 1600px;
-    height: 521px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
-
 
 #carousel1 .carousel-indicators {
     position: absolute;
     display: flex;
-    top:20px;
-    transform: translateX(-3%);
+    top: 20px;
+    right: 4%;
     align-items: flex-end;
     flex-direction: column;
     gap: 12px;
@@ -65,10 +81,9 @@ body{
 }
 
 .carousel-inner {
-    position:relative;
+    position: relative;
     z-index: 1;
 }
-
 
 .carousel-indicators button:not(.active) {
     background-image: url("../imagens/carousel1/bola_branca_nao_seleccionada.svg") !important;
@@ -86,4 +101,80 @@ body{
     padding: 0 !important;
     margin: 0 !important;
     border: none !important;
+}
+
+.navbar{
+    margin-top: -40px;
+    z-index: 10;
+}
+.navbartopo{
+    background-color:#3E3E3E;
+    width: 1319px;
+    height: 67px;
+    box-shadow:1px 1px 8px #3E3E3E;
+    align-items: center;
+    display:flex;
+}
+.nav-link.active {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.dropdown-menu {
+    background-color: #3E3E3E !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-top: 0 !important;
+    border-radius: 0 !important;
+}
+
+.nav-link, .dropdown-item{
+    color:#FFFFFF !important;
+    font-family: 'Proxima Nova ExCn Lt';
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height:65px;
+    padding: 0 30px !important;
+}
+
+.nav-link:hover{
+    border-top: 4px solid #FFFFFF;
+}
+
+.dropdown-item {
+    border-bottom: 1px solid #FFFFFF;
+    position: relative;
+    padding-left: 32px !important;
+}
+
+
+.dropdown-item::before {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px; 
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../imagens/seta_submenu.svg");
+}
+
+.dropdown-item:hover::before {
+    opacity: 1;
+}
+
+
+.dropdown-item:hover {
+    background-color: #3E3E3E !important;
+}
+
+
+.navbartopo .navbar-nav {
+    margin: 0 auto !important;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
