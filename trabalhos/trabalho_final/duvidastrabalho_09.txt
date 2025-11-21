@@ -6,3 +6,7 @@
 a ultima "navbar" tem que :
   -Levar até á navbar de cima Mas não seleccionar
   -Não precisa levar até á navbar de cima ? Comportamento normal do ="#" é levar para o topo, salvo erro
+
+
+-ACIMA de 1600px tem que ter espaçamento branco dos 2 lados
+-INOVAÇÃO E TECNOLOGIA tem dropdown.
