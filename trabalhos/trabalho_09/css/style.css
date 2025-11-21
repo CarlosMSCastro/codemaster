@@ -6,7 +6,7 @@ body{
 }
 
 .titulos{
-    font-family: 'Proxima Nova ExCn Lt';
+    font-family: 'Proxima Nova ExCn Sb';
 }
 
 /* Container do header para manter tudo centralizado */
@@ -130,7 +130,7 @@ header .row:first-child .col-12 {
 
 .nav-link, .dropdown-item{
     color:#FFFFFF !important;
-    font-family: 'Proxima Nova ExCn Lt';
+    font-family: 'Proxima Nova ExCn Sb';
     font-size: 22px;
     text-transform: uppercase;
     line-height:65px;
@@ -177,4 +177,56 @@ header .row:first-child .col-12 {
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+
+#intro {
+    max-width: 1250px;
+    margin: 60px auto 40px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#intro h1 {
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: none;
+    margin-bottom: 5px;
+    color: #4D4D4D;
+}
+
+#intro h2 {
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 44px;
+    line-height: 12px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    color: #4D4D4D;
+}
+
+#intro p {
+    font-family: 'Proxima Nova ExCn Rg';
+    font-size: 20px;
+    line-height: 1.45;
+    max-width: 1250px;
+    margin: 0 auto 55px auto;
+    color: #4D4D4D;
+}
+
+
+#intro .titulo-secundario {
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: #4D4D4D;
+}
+
+#intro .linha-separadora {
+    width: 95%;
+    max-width: 1300px;
+    margin: 50px auto 40px auto;
+    border: none;
+    border-top: 3px solid #4D4D4D;
 }

@@ -1,0 +1,8 @@
+-Qual das navbar ?!
+    video ou home.pdf?
+
+-Tamanho o <p> é diferente no Home.pdf e no video
+
+a ultima "navbar" tem que :
+  -Levar até á navbar de cima Mas não seleccionar
+  -Não precisa levar até á navbar de cima ? Comportamento normal do ="#" é levar para o topo, salvo erro
