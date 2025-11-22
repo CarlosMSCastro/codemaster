@@ -436,17 +436,17 @@ header .row:first-child .col-12 {
 
 #carouselNoticias .noticias-conteudo {
     position: relative !important; 
-    bottom: 397px;                   /* posição vertical do card */
-    left: 270px;                     /* posição horizontal do card */
+    bottom: 397px; 
+    left: 270px;  
     width: 680px;
     background: rgba(255,255,255,0.85);
-    padding: 40px 30px 40px;         /* um pouco de espaço em baixo */
+    padding: 40px 30px 40px; 
 }
-/* BOTÃO – absoluto, colado por fora do card */
+
 #carouselNoticias .noticias-btn {
-    position: absolute;              /* NOVO (antes era estático) */
-    left: 300px;                      /* alinhado com o texto */
-    bottom: 341px;                   /* fora do card, 45px abaixo da borda */
+    position: absolute;          
+    left: 300px;                    
+    bottom: 341px;                 
     display: inline-block;
     background-color: #006E94;
     color: #FFFFFF !important;
@@ -458,7 +458,7 @@ header .row:first-child .col-12 {
     text-align:center;
 
 }
-/* TÍTULO */
+
 #carouselNoticias .noticias-titulo {
     font-family: 'Proxima Nova ExCn Sb';
     font-size: 32px;
@@ -466,7 +466,7 @@ header .row:first-child .col-12 {
     margin-bottom: 10px;
 }
 
-/* DATA */
+
 #carouselNoticias .noticias-data {
     font-family: 'Proxima Nova ExCn Sb';
     font-size: 26px;
@@ -474,7 +474,7 @@ header .row:first-child .col-12 {
     margin-bottom: 20px;
 }
 
-/* TEXTO */
+
 #carouselNoticias .noticias-texto {
     font-family: 'Proxima Nova ExCn Rg';
     font-size: 20px;
@@ -482,7 +482,7 @@ header .row:first-child .col-12 {
     line-height: 1.3;
 }
 
-/* BOTÃO */
+
 
 
 #carouselNoticias .noticias-btn:hover {
@@ -492,8 +492,6 @@ header .row:first-child .col-12 {
 
 
 
-
-/* INDICADORES */
 #carouselNoticias .carousel-indicators {
     bottom: 144px;
     left: 530px !important;
@@ -531,4 +529,116 @@ header .row:first-child .col-12 {
     text-align: center;
     margin-bottom: 25px;
     padding-top: 60px! important;
+}
+
+
+
+#navbarfundo {
+    margin-top: -135px;
+    z-index: 20;
+}
+
+.navbarfundo-topo {
+    width: 1320px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+}
+
+.navbarfundo-link {
+    color: #2E2E2E !important;
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 22px;
+    padding: 0 30px !important;
+    line-height: 63px;
+    text-transform: uppercase;
+}
+
+.navbarfundo-link:hover {
+    color:#006E94 !important;
+    border: none !important;
+}
+
+
+.navbarfundo-menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer{
+    margin-top:35px;
+}
+
+#footerfundo {
+    background-color: #ffffff;
+    padding: 40px 0 20px 0;
+    max-width: 1460px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#footer-logos {
+    gap: 50px;
+    padding-bottom: 25px;
+}
+
+.footer-logo {
+    height: 65px;
+    object-fit: contain;
+}
+
+.footer-logo:hover,
+.footer-certificados:hover,
+.footer-livro:hover,
+.footer-icon:hover,
+.footer-consumo:hover
+{
+    cursor:pointer;
+}
+
+
+#footer-linha {
+    width: 86%;
+    margin: 0 auto 25px auto;
+    border: none;
+    border-top: 2px solid #4D4D4D;
+    opacity:1 !important;
+}
+
+
+#footer-info {
+    width: 88%;
+    margin: 0 auto;
+    margin-left: 100px !important;
+}
+
+
+.footer-icon {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+}
+
+
+#footer-copyright {
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 15px;
+    color: #4D4D4D;
+    margin-top: 20px;
+    margin-left: 90px;
+    padding-bottom:30px;
+}
+
+.footer-livro {
+    height: 38px;
+    object-fit: contain;
+}
+.footer-consumo {
+    height: 38px;
+    object-fit: contain;
+}
+
+#samsung{
+    width: 120px !important;
 }
