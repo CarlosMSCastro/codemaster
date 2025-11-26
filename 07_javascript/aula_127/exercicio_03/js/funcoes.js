@@ -30,5 +30,5 @@ function enviar(event){
   imc_saida.innerHTML = imc.toFixed(2);
   estado_saida.innerHTML = estado;
 
-  saida.classList.remove("d-none");
+  saida1.classList.remove("d-none");
 }
