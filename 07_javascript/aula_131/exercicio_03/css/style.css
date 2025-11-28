@@ -1,0 +1,90 @@
+body{
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.caixa{
+  width: 60%;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  margin: 20px auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+.caixa *{margin: 0px;}
+/* .caixa .label{} */
+
+button, .caixa input[type="submit"]{
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  font-size: 16px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 25px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+button:hover, .caixa input[type="submit"]:hover{
+  color: red;
+  border-color: red;
+}
+
+.caixa input:not([type="submit"]), select, textarea{
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid white;
+  text-align: center;
+  color: white;
+}
+
+.caixa input[type="color"]{
+  width: 60px;
+  height: 40px;
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+}
+
+.caixa label{
+  font-size: 22px;
+}
+
+
+ol{
+  text-align: left;
+}
+
+table{margin: 10px auto !important;}
+table, td, th{
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 10px;
+}
+tr:nth-of-type(even){
+  background-color: rgba(255, 255, 255, 0.217);
+}
+
+
+
+
+@media all and (width < 800px){
+  .caixa{width: 99%;}
+}
+
+.bgred{
+  background-color:rgba(255, 0, 0, 0.3);
+}
+
+h1, h2{
+  color:red;
+}
+
+
