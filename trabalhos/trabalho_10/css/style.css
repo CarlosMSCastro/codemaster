@@ -1,0 +1,753 @@
+body{
+    max-width:1600px;
+    margin:0 auto;
+    width:100%;
+    font-family: 'Proxima Nova ExCn Rg';
+    background-color: #ffffff;
+}
+
+.titulos{
+    font-family: 'Proxima Nova ExCn Sb';
+}
+
+
+header .container-fluid {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+.header-top {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 35px;
+}
+
+.header-left,
+.header-center,
+.header-right {
+    flex: 1; 
+}
+
+.header-center {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .row:first-child .col-12 {
+    position: relative;
+    padding: 40px 0;
+    min-height: 176px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#logoprincipal{
+    display: block;
+    height: 116px;
+    width: 210px;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: -22px;
+}
+
+
+.social-icons img {
+    width: 30.28px;
+    height: 29.11px;
+}
+
+.separator {
+    width: 1px;
+    height: 32px;
+    background-color: #716E6E;
+    margin-left: 5px;
+    margin-right: 4px;
+}
+
+#carousel1 {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative !important;
+    box-shadow:1px 1px 10px #3E3E3E;
+}
+
+#carousel1 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#carousel1 .carousel-indicators {
+    position: absolute;
+    display: flex;
+    top: 20px;
+    right: 4%;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0;
+    z-index: 20 !important;
+}
+
+#carousel1 .carousel-inner {
+    position: relative;
+    z-index: 1;
+}
+
+#carousel1 .carousel-indicators button:not(.active) {
+    background-image: url("../imagens/carousel1/bola_branca_nao_seleccionada.svg") !important;
+}
+
+#carousel1 .carousel-indicators button.active {
+    background-image: url("../imagens/carousel1/bola_branca_seleccionada.svg") !important;
+}
+
+#carousel1 .carousel-indicators [data-bs-target] {
+    width: 22px !important;
+    height: 22px !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+.navbar {
+
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -40px;
+    z-index: 10;
+}
+
+.navbartopo {
+
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #3E3E3E;
+    height: 67px;
+    box-shadow:1px 1px 8px #3E3E3E;
+}
+
+.nav-link.active {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.dropdown-menu {
+    background-color: #3E3E3E !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-top: 0 !important;
+    border-radius: 0 !important;
+}
+
+.nav-link, .dropdown-item{
+    color:#FFFFFF !important;
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 0 22px !important;
+}
+.nav-link{
+    line-height:63px;
+}
+.nav-link:hover{
+    border-top: 4px solid #FFFFFF;
+}
+
+.dropdown-item {
+    border-bottom: 1px solid #FFFFFF;
+    position: relative;
+    padding-left: 32px !important;
+    line-height:35px;
+}
+
+
+.dropdown-item::before {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px; 
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../imagens/seta_submenu.svg");
+}
+
+.dropdown-item:hover::before {
+    opacity: 1;
+}
+
+
+.dropdown-item:hover {
+    background-color: #3E3E3E !important;
+}
+
+
+.navbartopo .navbar-nav {
+    margin: 0 auto !important;
+    display: flex;
+    justify-content: center;
+}
+
+
+#intro {
+    max-width: 1250px;
+    margin: 60px auto 40px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#intro h1 {
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: none;
+    margin-bottom: 5px;
+    color: #4D4D4D;
+}
+
+#intro h2 {
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 44px;
+    line-height: 12px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    color: #4D4D4D;
+}
+
+#intro p {
+    font-family: 'Proxima Nova ExCn Rg';
+    font-size: 20px;
+    line-height: 1.45;
+    max-width: 1250px;
+    margin: 0 auto 55px auto;
+    color: #4D4D4D;
+}
+
+
+#intro .titulo-secundario {
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: #4D4D4D;
+}
+
+#destaques {
+    max-width: 1600px;
+    margin: 5px auto;
+    padding: 0 20px;
+}
+
+#destaques .titulo-secundario {
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 42px;
+    font-weight: 600;
+    color: #4D4D4D;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.linha-separadora {
+    width: 78% !important;
+    max-width: 1300px;
+    margin: 10px auto 40px auto;
+    border: none;
+    border-top: 3px solid #4D4D4D;
+}
+
+#carouselDestaques {
+    width: 81%;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#carouselDestaques .destaques-img {
+    width: 100%;
+    max-width: 630px;
+    min-width: 500px;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0 !important;
+}
+
+#carouselDestaques .destaques-conteudo {
+    flex:1;
+    max-width: 520px !important;
+    min-width: 420px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 40px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+#carouselDestaques .destaques-titulo {
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 34px;
+    color: #4D4D4D;
+}
+
+#carouselDestaques .destaques-data {
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #4D4D4D;
+    line-height:15px;
+}
+
+#carouselDestaques .destaques-texto {
+    font-family: 'Proxima Nova ExCn Rg';
+    font-size: 24px;
+    line-height: 1;
+    color: #4D4D4D;
+    margin-bottom: 35px;
+    max-width: 100%;
+}
+
+.destaques-btn {
+    display: block;
+    align-self: flex-end;
+    background-color: #006E94;
+    color: #FFFFFF !important;
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 17px !important;
+    text-decoration: none;
+    transition: 0.2s ease;
+    width: 140px;
+    text-align:center;
+    padding: 2px !important;
+    margin-top: 32px !important;
+}
+
+.destaques-btn:hover {
+    background-color: #4D4D4D;
+    color: #FFFFFF;
+}
+
+#carouselDestaques {
+    margin-top: 0;
+}
+
+#carouselDestaques .carousel-indicators [data-bs-target] {
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 1 !important;
+    border: none !important;
+    width: 26px;
+    height: 26px; 
+}
+
+#carouselDestaques .carousel-item .row {
+    display:flex;
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#carouselDestaques .carousel-item .col-6 {
+    max-width: none !important;
+    flex: none !important;
+}
+
+#carouselDestaques .carousel-indicators button:not(.active) {
+    background-image: url("../imagens/carousel2/bola_azul.svg");
+}
+
+#carouselDestaques .carousel-indicators .active {
+    background-image: url("../imagens/carousel2/bola_cinza.svg");
+}
+
+#carouselDestaques .carousel-control-prev,
+#carouselDestaques .carousel-control-next {
+    width: 60px;
+}
+
+#carouselDestaques .carousel-control-prev-icon,
+#carouselDestaques .carousel-control-next-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#carouselDestaques .carousel-control-prev-icon {
+    background-image: url("../imagens/carousel2/seta_destaques_esquerda.svg");
+}
+
+#carouselDestaques .carousel-control-next-icon {
+    background-image: url("../imagens/carousel2/seta_destaques_direita.svg");
+}
+
+
+#carouselDestaques .carousel-indicators {
+    justify-content: center;
+    gap: 14px;
+    bottom: -15px;
+    right: 280px !important;
+}
+
+#carouselDestaques .carousel-indicators [data-bs-target]:hover {
+    opacity: 1 !important;
+}
+
+#carouselDestaques .carousel-control-prev,
+#carouselDestaques .carousel-control-next {
+    width: 90px;   
+}
+
+#carouselDestaques .carousel-control-prev-icon,
+#carouselDestaques .carousel-control-next-icon {
+    width: 50px;
+    height: 70px;
+    background-size: 70px 70px;
+}
+
+#carouselDestaques .carousel-control-prev {
+    left: -110px;
+    opacity: 1 !important;
+}
+
+#carouselDestaques .carousel-control-next {
+    right: -110px;
+    opacity: 1 !important;
+}
+
+
+
+#noticias {
+    width: 100%;
+    max-width: 1600px;
+    margin: 40px auto;
+    padding: 0 0px 40px 0px;
+    box-shadow: 0 -12px 15px rgba(0,0,0,0.15),
+                0 12px 15px rgba(0,0,0,0.15);
+}
+
+
+#carouselNoticias {
+    width: 100%;
+    max-width: 1600px;
+    height: 735px;
+    margin: 0 auto;
+    position: relative;
+    overflow: visible;
+}
+
+
+#carouselNoticias .noticias-img {
+    height: 540px;
+    object-fit: cover;
+    display: block;
+}
+
+#carouselNoticias .noticias-conteudo {
+    position: relative !important; 
+    bottom: 397px; 
+    left: 270px;  
+    width: 680px;
+    background: rgba(255,255,255,0.85);
+    padding: 40px 30px 40px; 
+}
+
+#carouselNoticias .noticias-btn {
+    position: absolute;          
+    left: 300px;                    
+    bottom: 341px;                 
+    display: inline-block;
+    background-color: #006E94;
+    color: #FFFFFF !important;
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 18px;
+    text-decoration: none;
+    padding: 2px;
+    width:130px;
+    text-align:center;
+
+}
+
+#carouselNoticias .noticias-titulo {
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 32px;
+    color: #4D4D4D;
+    margin-bottom: 10px;
+}
+
+
+#carouselNoticias .noticias-data {
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 26px;
+    color: #4D4D4D;
+    margin-bottom: 20px;
+}
+
+
+#carouselNoticias .noticias-texto {
+    font-family: 'Proxima Nova ExCn Rg';
+    font-size: 20px;
+    color: #4D4D4D;
+    line-height: 1.3;
+}
+
+
+
+
+#carouselNoticias .noticias-btn:hover {
+    background-color: #4D4D4D;
+}
+
+
+
+
+#carouselNoticias .carousel-indicators {
+    bottom: 144px;
+    left: 530px !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+    gap: 12px;
+    justify-content: center;
+}
+
+#carouselNoticias .carousel-indicators [data-bs-target] {
+    width: 22px;
+    height: 22px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    opacity: 1 !important;
+    z-index: 60 !important;
+}
+
+#carouselNoticias .carousel-indicators button:not(.active) {
+    background-image: url("../imagens/carousel2/bola_azul.svg");
+}
+
+#carouselNoticias .carousel-indicators .active {
+    background-image: url("../imagens/carousel2/bola_cinza.svg");
+}
+
+
+
+#noticias .titulo-secundario {
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 42px;
+    font-weight: 600;
+    color: #4D4D4D;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-top: 60px! important;
+}
+
+
+
+#navbarfundo {
+    margin-top: -135px;
+    z-index: 20;
+}
+
+.navbarfundo-topo {
+    width: 1320px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+}
+
+.navbarfundo-link {
+    color: #2E2E2E !important;
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 22px;
+    padding: 0 30px !important;
+    line-height: 63px;
+    text-transform: uppercase;
+}
+
+.navbarfundo-link:hover {
+    color:#006E94 !important;
+    border: none !important;
+}
+
+
+.navbarfundo-menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer{
+    margin-top:35px;
+}
+
+#footerfundo {
+    background-color: #ffffff;
+    padding: 40px 0 20px 0;
+    max-width: 1460px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#footer-logos {
+    gap: 50px;
+    padding-bottom: 25px;
+}
+
+.footer-logo {
+    height: 65px;
+    object-fit: contain;
+}
+
+.footer-logo:hover,
+.footer-certificados:hover,
+.footer-livro:hover,
+.footer-icon:hover,
+.footer-consumo:hover
+{
+    cursor:pointer;
+}
+
+
+#footer-linha {
+    width: 86%;
+    margin: 0 auto 25px auto;
+    border: none;
+    border-top: 2px solid #4D4D4D;
+    opacity:1 !important;
+}
+
+
+#footer-info {
+    width: 88%;
+    margin: 0 auto;
+    margin-left: 100px !important;
+}
+
+
+.footer-icon {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+}
+
+
+#footer-copyright {
+    font-family: 'Proxima Nova ExCn Sb';
+    font-size: 15px;
+    color: #4D4D4D;
+    margin-top: 20px;
+    margin-left: 90px;
+    padding-bottom:30px;
+}
+
+.footer-livro {
+    height: 38px;
+    object-fit: contain;
+}
+.footer-consumo {
+    height: 38px;
+    object-fit: contain;
+}
+
+#samsung{
+    width: 120px !important;
+}
+
+
+@media (max-width: 1200px) and (min-width: 992px) {
+
+    .navbartopo {
+        padding: 0 20px; 
+    }
+
+    .nav-link {
+        padding: 0 14px !important;
+        font-size: 20px; 
+    }
+
+    .navbar {
+        max-width: 1100px;   
+    }
+}
+
+@media (max-width: 1266px) {
+
+    /* intro, como já tinhas */
+    #intro {
+        padding: 0 80px;
+    }
+
+    /* WRAPPER do slide: controla a largura de tudo (img + texto) */
+    #carouselDestaques .carousel-item .row {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+
+        max-width: 550px !important;   /* largura comum a imagem + texto */
+        width: 100% !important;
+        margin: 0 auto !important;     /* centra dentro do carousel */
+        text-align: left !important;
+    }
+
+    /* IMAGEM: usa 100% da largura do wrapper (550px máx) */
+    #carouselDestaques .destaques-img {
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 0 25px 0 !important;
+        display: block !important;
+    }
+
+    /* TEXTO: mesma largura do wrapper (logo, da imagem) */
+    #carouselDestaques .destaques-conteudo {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: left !important;
+    }
+
+    /* col-6 deixam de se meter ao barulho */
+    #carouselDestaques .carousel-item .col-6 {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: none !important;
+    }
+
+/* BOTÃO: centrado sob o texto, na versão empilhada */
+    .destaques-btn {
+        align-self: center !important;
+        margin: 20px auto 0 auto !important;
+        display: block !important;
+}
+
+    /* indicadores, para não fugirem */
+    #carouselDestaques .carousel-indicators {
+        left: 0 !important;
+        right: 0 !important;
+        bottom: -5px !important;
+        justify-content: center !important;
+    }
+}
+
+
