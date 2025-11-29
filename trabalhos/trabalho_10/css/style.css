@@ -342,6 +342,8 @@ header .row:first-child .col-12 {
     text-align:center;
     padding: 2px !important;
     margin-top: 32px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 .destaques-btn:hover {
@@ -407,8 +409,10 @@ header .row:first-child .col-12 {
 #carouselDestaques .carousel-indicators {
     justify-content: center;
     gap: 14px;
-    bottom: -15px;
+    bottom: -30px;
+    padding-bottom: 19px;
     right: 280px !important;
+    background-color:white;
 }
 
 #carouselDestaques .carousel-indicators [data-bs-target]:hover {
@@ -460,11 +464,12 @@ header .row:first-child .col-12 {
 
 
 #carouselNoticias .noticias-img {
-    height: 540px;
+    width: 100%;
+    height: auto !important;
+    max-height: 540px;     /* mantém limite no desktop */
     object-fit: cover;
     display: block;
 }
-
 #carouselNoticias .noticias-conteudo {
     position: relative !important; 
     bottom: 397px; 
@@ -524,17 +529,19 @@ header .row:first-child .col-12 {
 
 
 #carouselNoticias .carousel-indicators {
-    bottom: 144px;
+    bottom: 138px;
     left: 530px !important;
     right: 0 !important;
     margin: 0 auto !important;
     gap: 12px;
     justify-content: center;
+    background-color:white;
+    padding-bottom: 15px;
 }
 
 #carouselNoticias .carousel-indicators [data-bs-target] {
-    width: 22px;
-    height: 22px;
+    width: 26px;
+    height: 26px;
     background-size: contain;
     background-repeat: no-repeat;
     border: none;
@@ -674,7 +681,7 @@ footer{
     width: 120px !important;
 }
 
-
+/* Navbar */
 @media (max-width: 1200px) and (min-width: 992px) {
 
     .navbartopo {
@@ -690,27 +697,23 @@ footer{
         max-width: 1100px;   
     }
 }
-
+/* 1º Carroussel */
 @media (max-width: 1266px) {
 
-    /* intro, como já tinhas */
     #intro {
         padding: 0 80px;
     }
 
-    /* WRAPPER do slide: controla a largura de tudo (img + texto) */
     #carouselDestaques .carousel-item .row {
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
-
-        max-width: 550px !important;   /* largura comum a imagem + texto */
+        max-width: 650px !important;
         width: 100% !important;
-        margin: 0 auto !important;     /* centra dentro do carousel */
+        margin: 0 auto !important;
         text-align: left !important;
     }
 
-    /* IMAGEM: usa 100% da largura do wrapper (550px máx) */
     #carouselDestaques .destaques-img {
         width: 100% !important;
         height: auto !important;
@@ -718,36 +721,128 @@ footer{
         display: block !important;
     }
 
-    /* TEXTO: mesma largura do wrapper (logo, da imagem) */
     #carouselDestaques .destaques-conteudo {
         width: 100% !important;
         max-width: 100% !important;
         margin: 0 !important;
         padding: 0 !important;
         text-align: left !important;
+
+        position: relative;
+        padding-bottom: 70px !important;
     }
 
-    /* col-6 deixam de se meter ao barulho */
+    #carouselDestaques .destaques-btn {
+        display: inline-block !important;
+        align-self:flex-start;  
+    }
+
+    #carouselDestaques .carousel-indicators {
+        position: absolute !important;
+        bottom: 10px !important;
+        width: 550px !important;      
+        left: 50% !important;           
+        transform: translateX(-50%);    
+        padding: 10px;
+        display: flex !important;
+        justify-content: flex-end !important;
+        margin: 0 !important;
+    }
+
     #carouselDestaques .carousel-item .col-6 {
         width: 100% !important;
         max-width: 100% !important;
         flex: none !important;
     }
+}
 
-/* BOTÃO: centrado sob o texto, na versão empilhada */
-    .destaques-btn {
-        align-self: center !important;
-        margin: 20px auto 0 auto !important;
+@media (max-width: 1266px) {
+
+
+    #carouselNoticias .noticias-img {
+        width: 100% !important;
+        height: 500px !important;
         display: block !important;
+        object-fit: cover;
+    }
+
+
+
+    #carouselNoticias .noticias-conteudo {
+        position: absolute !important;
+        bottom: 50px !important; 
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        max-height: 70%;
+        width: 80% !important;
+        max-width: 480px !important;
+
+        background: rgba(255,255,255,0.90);
+    }
+
+
+    #carouselNoticias .noticias-btn {
+        position: relative !important;
+        bottom: auto !important;
+        transform: none !important;
+        margin: 15px 0 0 30px !important; 
+        width: 140px !important;
+        display: inline-block !important;
+    }
+
+
+    #carouselNoticias .carousel-indicators {
+        position: absolute !important;
+        left: 50% !important;
+
+        bottom: 30px !important;
+        width: 550px !important;
+        left: 50% !important;
+        transform: translateX(-50%);
+
+        margin: 0 !important;
+        padding: 0 30px !important;
+
+        display: flex !important;
+        justify-content: flex-end !important;
+        gap: 10px !important;
+        background-color:white;
+    }
+
 }
 
-    /* indicadores, para não fugirem */
-    #carouselDestaques .carousel-indicators {
-        left: 0 !important;
-        right: 0 !important;
-        bottom: -5px !important;
-        justify-content: center !important;
+
+
+@media (max-width: 992px) {
+
+    #carouselDestaques .carousel-control-prev,
+    #carouselDestaques .carousel-control-next {
+        display: none !important;
     }
+    #carouselNoticias .noticias-conteudo {
+        position: absolute !important;
+        bottom: -150px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        max-height: 70%;
+        width: 80% !important;
+        max-width: 480px !important;
+        background: rgba(255, 255, 255, 0.90);
+    }
+
+    #carouselNoticias {
+    height: auto !important;   /* deixa a altura adaptar-se ao conteúdo */
+    }
+
+    #carouselNoticias .carousel-indicators {
+        background-color: transparent !important;
+        padding-bottom: 0 !important;
+    }
+
 }
+
+
+
+
 
 
