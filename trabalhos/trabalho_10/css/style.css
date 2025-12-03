@@ -5,51 +5,32 @@ body{
     font-family: 'Proxima Nova ExCn Rg';
     background-color: #ffffff;
 }
-
-.header-mobile{
-    display:none !important;
-}
-
-
-.nav-mobile {
-    display: none !important;
-}
-
-.titulos{
-    font-family: 'Proxima Nova ExCn Sb';
-}
-
-
+.header-mobile{display:none !important;}
+.nav-mobile {display: none !important;}
+.titulos{font-family: 'Proxima Nova ExCn Sb';}
 header .container-fluid {
     max-width: 1600px;
     margin: 0 auto;
 }
-
-
 .header-top {
     width: 100%;
     margin: 0 auto;
     padding: 0 35px;
 }
-
 .header-left,
 .header-center,
 .header-right {
     flex: 1; 
 }
-
 .header-center {
     display: flex;
     justify-content: center;
     padding-top: 30px;
 }
-
-
 .header-right {
     display: flex;
     justify-content: flex-end;
 }
-
 header .row:first-child .col-12 {
     position: relative;
     padding: 40px 0;
@@ -57,27 +38,22 @@ header .row:first-child .col-12 {
     max-width: 1600px;
     margin: 0 auto;
 }
-
 #logoprincipal{
     display: block;
     height: 116px;
     width: 210px;
     margin: 0;
 }
-
 .social-icons {
     display: flex;
     align-items: center;
     gap: 12px;
     margin-top: -22px;
 }
-
-
 .social-icons img {
     width: 30.28px;
     height: 29.11px;
 }
-
 .separator {
     width: 1px;
     height: 32px;
@@ -85,20 +61,17 @@ header .row:first-child .col-12 {
     margin-left: 5px;
     margin-right: 4px;
 }
-
 #carousel1 {
     width: 100%;
     max-width: 1600px;
     position: relative !important;
     box-shadow:1px 1px 10px #3E3E3E;
 }
-
 #carousel1 img {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
-
 #carousel1 .carousel-indicators {
     position: absolute;
     display: flex;
@@ -110,20 +83,12 @@ header .row:first-child .col-12 {
     margin: 0;
     z-index: 20 !important;
 }
-
 #carousel1 .carousel-inner {
     position: relative;
     z-index: 1;
 }
-
-#carousel1 .carousel-indicators button:not(.active) {
-    background-image: url("../imagens/carousel1/bola_branca_nao_seleccionada.svg") !important;
-}
-
-#carousel1 .carousel-indicators button.active {
-    background-image: url("../imagens/carousel1/bola_branca_seleccionada.svg") !important;
-}
-
+#carousel1 .carousel-indicators button:not(.active) {background-image: url("../imagens/carousel1/bola_branca_nao_seleccionada.svg") !important;}
+#carousel1 .carousel-indicators button.active {background-image: url("../imagens/carousel1/bola_branca_seleccionada.svg") !important;}
 #carousel1 .carousel-indicators [data-bs-target] {
     width: 22px !important;
     height: 22px !important;
@@ -133,18 +98,14 @@ header .row:first-child .col-12 {
     margin: 0 !important;
     border: none !important;
 }
-
 .navbar {
-
     margin-left: auto;
     margin-right: auto;
     position: relative;
     top: -40px;
     z-index: 10;
 }
-
 .navbartopo {
-
     width: 88%;
     margin: 0 auto;
     display: flex;
@@ -153,12 +114,10 @@ header .row:first-child .col-12 {
     height: 67px;
     box-shadow:1px 1px 8px #3E3E3E;
 }
-
 .nav-link.active {
     font-size: 24px;
     font-weight: 600;
 }
-
 .dropdown-menu {
     background-color: #3E3E3E !important;
     border: none !important;
@@ -166,7 +125,6 @@ header .row:first-child .col-12 {
     margin-top: 0 !important;
     border-radius: 0 !important;
 }
-
 .nav-link, .dropdown-item{
     color:#FFFFFF !important;
     font-family: 'Proxima Nova ExCn Sb';
@@ -174,21 +132,14 @@ header .row:first-child .col-12 {
     text-transform: uppercase;
     padding: 0 22px !important;
 }
-.nav-link{
-    line-height:63px;
-}
-.nav-link:hover{
-    border-top: 4px solid #FFFFFF;
-}
-
+.nav-link{line-height:63px;}
+.nav-link:hover{border-top: 4px solid #FFFFFF;}
 .dropdown-item {
     border-bottom: 1px solid #FFFFFF;
     position: relative;
     padding-left: 32px !important;
     line-height:35px;
 }
-
-
 .dropdown-item::before {
     content: "";
     position: absolute;
@@ -202,31 +153,19 @@ header .row:first-child .col-12 {
     background-repeat: no-repeat;
     background-image: url("../imagens/seta_submenu.svg");
 }
-
-.dropdown-item:hover::before {
-    opacity: 1;
-}
-
-
-.dropdown-item:hover {
-    background-color: #3E3E3E !important;
-}
-
-
+.dropdown-item:hover::before {opacity: 1;}
+.dropdown-item:hover {background-color: #3E3E3E !important;}
 .navbartopo .navbar-nav {
     margin: 0 auto !important;
     display: flex;
     justify-content: center;
 }
-
-
 #intro {
     max-width: 1250px;
     margin: 60px auto 40px auto;
     text-align: center;
     padding: 0 20px;
 }
-
 #intro h1 {
     font-family: 'Proxima Nova ExCn Sb';
     font-size: 48px;
@@ -235,7 +174,6 @@ header .row:first-child .col-12 {
     margin-bottom: 5px;
     color: #4D4D4D;
 }
-
 #intro h2 {
     font-family: 'Proxima Nova ExCn Sb';
     font-size: 44px;
@@ -244,7 +182,6 @@ header .row:first-child .col-12 {
     margin-bottom: 35px;
     color: #4D4D4D;
 }
-
 #intro p {
     font-family: 'Proxima Nova ExCn Rg';
     font-size: 20px;
@@ -253,8 +190,6 @@ header .row:first-child .col-12 {
     margin: 0 auto 55px auto;
     color: #4D4D4D;
 }
-
-
 #intro .titulo-secundario {
     font-family: 'Proxima Nova ExCn Sb';
     font-size: 42px;
@@ -262,13 +197,11 @@ header .row:first-child .col-12 {
     margin-bottom: 35px;
     color: #4D4D4D;
 }
-
 #destaques {
     max-width: 1600px;
     margin: 5px auto;
     padding: 0 20px;
 }
-
 #destaques .titulo-secundario {
     font-family: 'Proxima Nova ExCn Sb';
     font-size: 42px;
@@ -277,7 +210,6 @@ header .row:first-child .col-12 {
     text-align: center;
     margin-bottom: 25px;
 }
-
 .linha-separadora {
     width: 78% !important;
     max-width: 1300px;
@@ -285,14 +217,12 @@ header .row:first-child .col-12 {
     border: none;
     border-top: 3px solid #4D4D4D;
 }
-
 #carouselDestaques {
     width: 81%;
     max-width: 1600px;
     margin: 0 auto;
     position: relative;
 }
-
 #carouselDestaques .destaques-img {
     width: 100%;
     max-width: 630px;
@@ -301,7 +231,6 @@ header .row:first-child .col-12 {
     object-fit: cover;
     flex-shrink: 0 !important;
 }
-
 #carouselDestaques .destaques-conteudo {
     flex:1;
     max-width: 520px !important;
@@ -313,13 +242,11 @@ header .row:first-child .col-12 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
-
 #carouselDestaques .destaques-titulo {
     font-family: 'Proxima Nova ExCn Sb';
     font-size: 34px;
     color: #4D4D4D;
 }
-
 #carouselDestaques .destaques-data {
     font-family: 'Proxima Nova ExCn Sb';
     font-size: 30px;
@@ -327,7 +254,6 @@ header .row:first-child .col-12 {
     color: #4D4D4D;
     line-height:15px;
 }
-
 #carouselDestaques .destaques-texto {
     font-family: 'Proxima Nova ExCn Rg';
     font-size: 24px;
@@ -336,7 +262,6 @@ header .row:first-child .col-12 {
     margin-bottom: 35px;
     max-width: 100%;
 }
-
 .destaques-btn {
     display: block;
     align-self: flex-end;
@@ -353,16 +278,11 @@ header .row:first-child .col-12 {
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
-
 .destaques-btn:hover {
     background-color: #4D4D4D;
     color: #FFFFFF;
 }
-
-#carouselDestaques {
-    margin-top: 0;
-}
-
+#carouselDestaques {margin-top: 0;}
 #carouselDestaques .carousel-indicators [data-bs-target] {
     background-size: contain;
     background-repeat: no-repeat;
@@ -371,7 +291,6 @@ header .row:first-child .col-12 {
     width: 26px;
     height: 26px; 
 }
-
 #carouselDestaques .carousel-item .row {
     display:flex;
     max-width: 1260px;
@@ -380,40 +299,23 @@ header .row:first-child .col-12 {
     align-items: flex-start;
     justify-content: center;
 }
-
 #carouselDestaques .carousel-item .col-6 {
     max-width: none !important;
     flex: none !important;
 }
-
-#carouselDestaques .carousel-indicators button:not(.active) {
-    background-image: url("../imagens/carousel2/bola_azul.svg");
-}
-
-#carouselDestaques .carousel-indicators .active {
-    background-image: url("../imagens/carousel2/bola_cinza.svg");
-}
-
+#carouselDestaques .carousel-indicators button:not(.active) {background-image: url("../imagens/carousel2/bola_azul.svg");}
+#carouselDestaques .carousel-indicators .active {background-image: url("../imagens/carousel2/bola_cinza.svg");}
 #carouselDestaques .carousel-control-prev,
 #carouselDestaques .carousel-control-next {
     width: 60px;
 }
-
 #carouselDestaques .carousel-control-prev-icon,
 #carouselDestaques .carousel-control-next-icon {
     background-size: contain;
     background-repeat: no-repeat;
 }
-
-#carouselDestaques .carousel-control-prev-icon {
-    background-image: url("../imagens/carousel2/seta_destaques_esquerda.svg");
-}
-
-#carouselDestaques .carousel-control-next-icon {
-    background-image: url("../imagens/carousel2/seta_destaques_direita.svg");
-}
-
-
+#carouselDestaques .carousel-control-prev-icon {background-image: url("../imagens/carousel2/seta_destaques_esquerda.svg");}
+#carouselDestaques .carousel-control-next-icon {background-image: url("../imagens/carousel2/seta_destaques_direita.svg");}
 #carouselDestaques .carousel-indicators {
     justify-content: center;
     gap: 14px;
@@ -422,35 +324,27 @@ header .row:first-child .col-12 {
     right: 280px !important;
     background-color:white;
 }
-
 #carouselDestaques .carousel-indicators [data-bs-target]:hover {
     opacity: 1 !important;
 }
-
 #carouselDestaques .carousel-control-prev,
 #carouselDestaques .carousel-control-next {
     width: 90px;   
 }
-
 #carouselDestaques .carousel-control-prev-icon,
 #carouselDestaques .carousel-control-next-icon {
     width: 50px;
     height: 70px;
     background-size: 70px 70px;
 }
-
 #carouselDestaques .carousel-control-prev {
     left: -110px;
     opacity: 1 !important;
 }
-
 #carouselDestaques .carousel-control-next {
     right: -110px;
     opacity: 1 !important;
 }
-
-
-
 #noticias {
     width: 100%;
     max-width: 1600px;
@@ -459,8 +353,6 @@ header .row:first-child .col-12 {
     box-shadow: 0 -12px 15px rgba(0,0,0,0.15),
                 0 12px 15px rgba(0,0,0,0.15);
 }
-
-
 #carouselNoticias {
     width: 100%;
     max-width: 1600px;
@@ -469,12 +361,10 @@ header .row:first-child .col-12 {
     position: relative;
     overflow: visible;
 }
-
-
 #carouselNoticias .noticias-img {
     width: 100%;
     height: auto !important;
-    max-height: 540px;     /* mantém limite no desktop */
+    max-height: 540px;
     object-fit: cover;
     display: block;
 }
@@ -486,7 +376,6 @@ header .row:first-child .col-12 {
     background: rgba(255,255,255,0.85);
     padding: 40px 30px 40px; 
 }
-
 #carouselNoticias .noticias-btn {
     position: absolute;          
     left: 24%;                    
@@ -500,42 +389,28 @@ header .row:first-child .col-12 {
     padding: 2px;
     width:130px;
     text-align:center;
-
 }
-
 #carouselNoticias .noticias-titulo {
     font-family: 'Proxima Nova ExCn Sb';
     font-size: 32px;
     color: #4D4D4D;
     margin-bottom: 10px;
 }
-
-
 #carouselNoticias .noticias-data {
     font-family: 'Proxima Nova ExCn Sb';
     font-size: 26px;
     color: #4D4D4D;
     margin-bottom: 20px;
 }
-
-
 #carouselNoticias .noticias-texto {
     font-family: 'Proxima Nova ExCn Rg';
     font-size: 20px;
     color: #4D4D4D;
     line-height: 1.3;
 }
-
-
-
-
 #carouselNoticias .noticias-btn:hover {
     background-color: #4D4D4D;
 }
-
-
-
-
 #carouselNoticias .carousel-indicators {
     bottom: 118px;
     left: 530px !important;
@@ -546,7 +421,6 @@ header .row:first-child .col-12 {
     background-color:white;
     padding-bottom: 15px;
 }
-
 #carouselNoticias .carousel-indicators [data-bs-target] {
     width: 26px;
     height: 26px;
@@ -556,17 +430,8 @@ header .row:first-child .col-12 {
     opacity: 1 !important;
     z-index: 60 !important;
 }
-
-#carouselNoticias .carousel-indicators button:not(.active) {
-    background-image: url("../imagens/carousel2/bola_azul.svg");
-}
-
-#carouselNoticias .carousel-indicators .active {
-    background-image: url("../imagens/carousel2/bola_cinza.svg");
-}
-
-
-
+#carouselNoticias .carousel-indicators button:not(.active) {background-image: url("../imagens/carousel2/bola_azul.svg");}
+#carouselNoticias .carousel-indicators .active {background-image: url("../imagens/carousel2/bola_cinza.svg");}
 #noticias .titulo-secundario {
     font-family: 'Proxima Nova ExCn Sb';
     font-size: 42px;
@@ -576,21 +441,16 @@ header .row:first-child .col-12 {
     margin-bottom: 25px;
     padding-top: 60px! important;
 }
-
-
-
 #navbarfundo {
     margin-top: -1px;
     z-index: 20;
 }
-
 .navbarfundo-topo {
     width: 1320px;
     height: 67px;
     display: flex;
     align-items: center;
 }
-
 .navbarfundo-link {
     color: #2E2E2E !important;
     font-family: 'Proxima Nova ExCn Sb';
@@ -599,23 +459,18 @@ header .row:first-child .col-12 {
     line-height: 63px;
     text-transform: uppercase;
 }
-
-.navbarfundo-link:hover {
+avbarfundo-link:hover {
     color:#006E94 !important;
     border: none !important;
 }
-
-
 .navbarfundo-menu {
     display: flex;
     justify-content: center;
     width: 100%;
 }
-
 footer{
     margin-top:35px;
 }
-
 #footerfundo {
     background-color: #ffffff;
     padding: 40px 0 20px 0;
@@ -623,27 +478,20 @@ footer{
     margin: 0 auto;
     margin-top: 30px;
 }
-
 #footer-logos {
     gap: 40px;
     padding-bottom: 25px;
 }
-
 .footer-logo {
     height: 65px;
     object-fit: contain;
 }
-
 .footer-logo:hover,
 .footer-certificados:hover,
 .footer-livro:hover,
 .footer-icon:hover,
 .footer-consumo:hover
-{
-    cursor:pointer;
-}
-
-
+{cursor:pointer;}
 #footer-linha {
     width: 86%;
     margin: 0 auto 25px auto;
@@ -651,22 +499,16 @@ footer{
     border-top: 2px solid #4D4D4D;
     opacity:1 !important;
 }
-
-
 #footer-info {
     width: 88%;
     margin: 0 auto;
     margin-left: 100px !important;
 }
-
-
 .footer-icon {
     width: 26px;
     height: 26px;
     object-fit: contain;
 }
-
-
 #footer-copyright {
     font-family: 'Proxima Nova ExCn Sb';
     font-size: 15px;
@@ -675,7 +517,6 @@ footer{
     margin-left: 90px;
     padding-bottom:30px;
 }
-
 .footer-livro {
     height: 38px;
     object-fit: contain;
@@ -684,21 +525,12 @@ footer{
     height: 38px;
     object-fit: contain;
 }
-
-#samsung{
-    width: 120px !important;
-}
-
-.footer-mobile{
-    display:none !important;
-}
+#samsung{width: 120px !important;}
+.footer-mobile{display:none !important;}
 
 @media (max-width: 1267px) and (min-width: 992px) {
 
-    .navbartopo {
-        max-width:95%; 
-        
-    }
+    .navbartopo {max-width:95%;}
 
     .nav-link {
         padding: 0 10px !important;
@@ -824,7 +656,6 @@ footer{
 
 }
 
-
 @media (max-width: 992px) {
 
     #carouselDestaques .carousel-control-prev,
@@ -847,48 +678,53 @@ footer{
 
     
     #carouselNoticias {
-    height: auto !important;   /* deixa a altura adaptar-se ao conteúdo */
+        height: 935px !important;   /* deixa a altura adaptar-se ao conteúdo */
     }
 
     #carouselNoticias .carousel-indicators {
         position:absolute;
         background-color: transparent !important;
         padding-bottom: 0 !important;
-        bottom: 120px !important;
+        bottom: 105px !important;
     }
 
-
+    #footerfundo {
+        margin-top: 0px;
+    }
 
     #noticias{
-        padding-bottom:50px;
+        padding-bottom:0px;
     }
 
     #footer-social{
         position:relative;
-        bottom:500px !important;
         transform:scale(150%);
+        bottom:150px !important;
+    }
+    #noticias {
+        padding: 0 !important;
     }
 
     #footer-logos{
         position:relative;
-        top:-150px !important;
+        bottom:90px !important;
     }
     
     #footer-linha{
         position:relative;
-        top: -125px !important;
+        bottom:90px !important;
     }
     #footer-certificados{
         position:relative;
         margin: auto;
         transform:scale(130%);
-        top: -155px !important;
+        bottom:90px !important;
         left: -10% !important;
     }
     #footer-copyright{
         position:relative;
         font-size:20px !important;
-        top: -155px !important;
+        bottom:80px !important;
         align-items:center !important;
     }
     /* esconder visualmente a barra, mas manter o conteúdo interno */
@@ -1109,20 +945,25 @@ footer{
         left: 30px;
         top: 50%;
         transform: translateY(-50%);
-        width: 16px; 
+        width: 16px;
         height: 16px;
         background-size: contain;
         background-repeat: no-repeat;
         background-image: url("../imagens/seta_submenu_mobile.svg");
+        
     }
 
     .dropdown-item:hover::before {
         opacity: 1;
     }
-
+    
+    .nav-link:hover{
+        font-size:23px !important;
+    }
 
     .dropdown-item:hover {
         background-color: #fff !important;
+        font-size:23px !important;
     }
 
     .footer-desktop{
@@ -1132,6 +973,57 @@ footer{
         display:flex !important;
     }
 
+    .navbarfundo-topo {
+        height:0px!important;
+    }
 }
 
-
+@media (max-width: 610px){
+    .social-icons {
+        transform: scale(85%);
+        position: absolute !important;
+        top: 120px;
+        margin-right:-30px;
+    }
+    #logoprincipal{
+        transform:scale(80%);
+        margin-left:-30px;
+    }
+    .navbar-toggler{
+        top: -135px !important;
+    }
+    #intro {
+        position:relative;
+        margin: 0px;
+        padding: 25px;
+        text-align: justify;
+        top: -80px;
+    }
+    #intro h1{
+        padding: 55px;
+    }
+    #intro p{
+        position:relative;
+        top:-30px;
+        margin-bottom: 0px;
+    }
+    #destaques{
+        position:relative;
+        top:-80px;
+        margin-left : 0 !important;
+        margin-right : 0 !important;
+        padding: 0px;
+    }
+    #carouselDestaques{
+        margin-left : 0 !important;
+        margin-right : 0 !important;
+    }
+    #carouselDestaques .destaques-img {
+        position:relative !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+    #carouselDestaques .carousel-item .row{
+        align-items:normal !important;
+    }
+}
