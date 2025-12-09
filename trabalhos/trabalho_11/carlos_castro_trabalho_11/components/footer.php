@@ -1,6 +1,5 @@
-
 <footer>
-    <p>© 2025 Papelaria XPTO</p>
+  <p>Carlos Castro © 2025</p>
 </footer>
 
 </body>

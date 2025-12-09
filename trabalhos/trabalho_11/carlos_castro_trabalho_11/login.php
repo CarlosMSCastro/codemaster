@@ -1,6 +1,9 @@
 <?php
 require_once "bootstrap.php";
 
+if (isset($_SESSION["colaborador"])) {
+    header("Location: home.php");
+}
 
 if(!empty($_POST)){
   $username = $_POST["username"] ?? "";
@@ -22,7 +25,7 @@ if(!empty($_POST)){
       <p style="color:red;"><?php echo $erro; ?></p>
     <?php endif; ?>
 
-    <input type="text" name="username" placeholder="Nome" required><br><br>
+    <input type="text" name="username" placeholder="Username" required><br><br>
     <input type="password" name="password" placeholder="Password" required><br><br>
 
     <button type="submit">Entrar</button>
