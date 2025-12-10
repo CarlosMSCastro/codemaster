@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 08-Dez-2025 às 19:37
+-- Tempo de geração: 10-Dez-2025 às 17:54
 -- Versão do servidor: 10.4.32-MariaDB
 -- versão do PHP: 8.2.12
 
@@ -40,9 +40,9 @@ CREATE TABLE `colaboradores` (
 --
 
 INSERT INTO `colaboradores` (`id`, `username`, `password`, `nome`, `data_ultimo_acesso`) VALUES
-(1, 'admin', '$2y$10$uDd3xCmv4MuY/6f1heapRumx1k1zOKNX1DpuQE2Cp0WuhvnxZ0qVC\r\n', 'Administrador', NULL),
-(2, 'maria', '$2y$10$s1dFvZzJq8zfxdHOA3KV6.iE8GN3ya8M9SvqFh9vWMoFDvQSs6I9O', 'Maria', NULL),
-(3, 'joao', '$2y$10$u5aE2S1np7Y1s33MrWQJFOwMuK4Z5p8RS9f7mFP9Fj6.cEw6yC5yO\r\n', 'João', NULL);
+(1, 'admin', '$2y$10$nFfYikm9XiC9omahDuxieeMtvwPwwJemyYYNAY8TJtqBMRNugUVW2', 'Administrador', '20:07:46 - 09/12/2025'),
+(2, 'maria', '$2y$10$K7tGeLUK1YJYaRtig4xe4ONre/K5GLylZ0b.FUH4ihb0jX0Iz0RI2', 'Maria', '16:25:50 - 10/12/2025'),
+(3, 'joao', '$2y$10$u8DmYW0s4UUW5NHUGtlotOssj3h0WTzHSnXV9uw06kZyfJRqZY6EO', 'João', '00:15:49 - 10/12/2025');
 
 -- --------------------------------------------------------
 
@@ -56,6 +56,20 @@ CREATE TABLE `produtos` (
   `preco` decimal(10,2) NOT NULL,
   `stock` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Extraindo dados da tabela `produtos`
+--
+
+INSERT INTO `produtos` (`id`, `nome`, `preco`, `stock`) VALUES
+(1, 'Caneta Verde', 1.24, 15),
+(2, 'Caneta Azul', 1.24, 3),
+(3, 'Caneta Vermelha', 1.24, 12),
+(4, 'Caneta Preta', 1.24, 15),
+(5, 'Tinta Branca 50ml', 2.69, 21),
+(6, 'Tinta Preta 50ml', 2.69, 19),
+(7, 'Tinta Vermelha 50ml', 2.99, 14),
+(8, 'Tinta Azul 50ml', 2.99, 16);
 
 --
 -- Índices para tabelas despejadas
@@ -88,7 +102,7 @@ ALTER TABLE `colaboradores`
 -- AUTO_INCREMENT de tabela `produtos`
 --
 ALTER TABLE `produtos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

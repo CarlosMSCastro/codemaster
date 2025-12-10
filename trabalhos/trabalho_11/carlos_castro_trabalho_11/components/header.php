@@ -19,8 +19,8 @@
       <a href="procurar_id.php" class="<?php echo ($pagina == 'procurar_id') ? 'active' : ''; ?>">Procurar Código</a>
       <a href="registar_produto.php" class="<?php echo ($pagina == 'registar_produto') ? 'active' : ''; ?>">Registar Produto</a>
       <a href="editar_produtos.php" class="<?php echo ($pagina == 'editar_produtos') ? 'active' : ''; ?>">Editar Produto</a>
-      <a href="apagar_produto.php">Apagar Produto</a>
-      <a href="vender_produto.php">Registar Venda</a>
+      <a href="apagar_produto.php" class="<?php echo ($pagina == 'apagar_produto') ? 'active' : ''; ?>">Apagar Produto</a>
+      <a href="registar_venda.php" class="<?php echo ($pagina == 'registar_venda') ? 'active' : ''; ?>">Registar Venda</a>
       <a href="logout.php">Sair</a>
     </nav>
   <?php endif; ?>
