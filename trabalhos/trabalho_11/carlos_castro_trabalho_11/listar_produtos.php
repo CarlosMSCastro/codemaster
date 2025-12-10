@@ -5,6 +5,8 @@ verificar_login();
 $pagina = "listar_produtos";
 $colunas_validas = ["id", "nome", "preco", "stock"];
 $sentidos_validos = ["ASC", "DESC"];
+$listagem_feita = !empty($_GET);
+
 
 $coluna = $_GET["coluna"] ?? "id";
 if($coluna !== "id" && $coluna !== "nome" && $coluna !== "preco" && $coluna !== "stock"){
@@ -34,8 +36,9 @@ $produtos = select_sql($sql);
       <option value="stock" <?php if($coluna=="stock") echo "selected"; ?>>Stock</option>
     </select>
 
-    <br><br>
+    <br>
     <div class="sentidos">
+
     <label>
       Ascendente
       <input type="radio" name="sentido" value="ASC" <?php if($sentido=="ASC") echo "checked"; ?>>
@@ -47,12 +50,23 @@ $produtos = select_sql($sql);
     </label>
     </div>
 
+    <br>
+
+    <button type="submit">Ordenar</button>
 
     <br><br>
 
-    <button type="submit">Ordenar</button>
+    <?php if ($listagem_feita): ?>
+      <a href="listar_produtos.php">
+        <button type="button">Reset</button>
+      </a>
+
+    <?php endif; ?>
+
   </form>
-  <br><br><br>
+
+
+  <br>
   <table class="tabela">
     <tr>
       <th>ID</th>
@@ -70,7 +84,6 @@ $produtos = select_sql($sql);
     </tr>
     <?php endforeach; ?>
   </table>
-
 
 </div>
 
