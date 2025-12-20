@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 144.3</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/classes/Produto.js" defer></script>
+  <script src="js/funcoes.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <h1>Javascript</h1>
+
+  <div class="caixa" id="saida">
+    <h3>formulário</h3>
+    <br>
+    <form action="" onsubmit="registar(event)">
+      <input type="text" id="input_nome" placeholder="Nome" required autofocus><br><br>
+      <input type="number" min="0" step="0.01" id="input_preco" placeholder="Preço" required><br><br>
+      <input type="number" min="0" id="input_stock" placeholder="Stock" required><br><br>
+      <input type="submit" value="Registar">
+    </form>
+  </div>
+
+  <div class="caixa" id="saida">
+    <table id="tabela">
+      <tr>
+        <th>Nome</th>
+        <th>Preço</th>
+        <th>Stock</th>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
