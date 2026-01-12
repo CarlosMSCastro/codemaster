@@ -1,0 +1,1 @@
+- Pasta comunicações tem que estar no htdocs do xampp
